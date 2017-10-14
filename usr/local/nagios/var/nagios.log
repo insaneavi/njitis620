@@ -628,3 +628,65 @@
 [1507854796] Caught SIGTERM, shutting down...
 [1507854796] Successfully shutdown... (PID=37964)
 [1507854796] Event broker module 'NERD' deinitialized successfully.
+[1508009057] Nagios 4.3.4 starting... (PID=53729)
+[1508009057] Local time is Sat Oct 14 15:24:17 EDT 2017
+[1508009057] LOG VERSION: 2.0
+[1508009057] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508009057] qh: core query handler registered
+[1508009057] nerd: Channel hostchecks registered successfully
+[1508009057] nerd: Channel servicechecks registered successfully
+[1508009057] nerd: Channel opathchecks registered successfully
+[1508009057] nerd: Fully initialized and ready to rock!
+[1508009057] wproc: Successfully registered manager as @wproc with query handler
+[1508009057] wproc: Registry request: name=Core Worker 53731;pid=53731
+[1508009057] wproc: Registry request: name=Core Worker 53732;pid=53732
+[1508009057] wproc: Registry request: name=Core Worker 53733;pid=53733
+[1508009057] wproc: Registry request: name=Core Worker 53734;pid=53734
+[1508009058] Successfully launched command file worker with pid 53738
+[1508009208] Caught SIGTERM, shutting down...
+[1508009208] Successfully shutdown... (PID=53729)
+[1508009208] Event broker module 'NERD' deinitialized successfully.
+[1508009464] Nagios 4.3.4 starting... (PID=53912)
+[1508009464] Local time is Sat Oct 14 15:31:04 EDT 2017
+[1508009464] LOG VERSION: 2.0
+[1508009464] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508009464] qh: core query handler registered
+[1508009464] nerd: Channel hostchecks registered successfully
+[1508009464] nerd: Channel servicechecks registered successfully
+[1508009464] nerd: Channel opathchecks registered successfully
+[1508009464] nerd: Fully initialized and ready to rock!
+[1508009464] wproc: Successfully registered manager as @wproc with query handler
+[1508009464] wproc: Registry request: name=Core Worker 53915;pid=53915
+[1508009464] wproc: Registry request: name=Core Worker 53916;pid=53916
+[1508009464] wproc: Registry request: name=Core Worker 53914;pid=53914
+[1508009464] wproc: Registry request: name=Core Worker 53917;pid=53917
+[1508009464] Successfully launched command file worker with pid 53924
+[1508009536] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1508009536] wproc: NOTIFY job 2 from worker Core Worker 53916 is a non-check helper but exited with return code 127
+[1508009536] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1508009536] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508009536] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508009536] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508009622] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage2;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1508009622] wproc: NOTIFY job 4 from worker Core Worker 53914 is a non-check helper but exited with return code 127
+[1508009622] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage2; contact=nagiosadmin
+[1508009622] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508009622] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508009622] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508009720] SERVICE ALERT: HYDRA;Memory Usage;WARNING;SOFT;1;Memory usage: total:37547.67 MB - used: 31493.79 MB (84%) - free: 6053.88 MB (16%)
+[1508009755] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1508009755] wproc: NOTIFY job 7 from worker Core Worker 53914 is a non-check helper but exited with return code 127
+[1508009755] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1508009755] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508009755] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508009755] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508009840] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status using checksnmp;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1508009840] wproc: NOTIFY job 10 from worker Core Worker 53916 is a non-check helper but exited with return code 127
+[1508009840] wproc:   host=rt-n66u; service=Port 1 Link Status using checksnmp; contact=nagiosadmin
+[1508009840] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508009840] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508009840] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508009840] SERVICE ALERT: HYDRA;Memory Usage;WARNING;SOFT;2;Memory usage: total:37547.67 MB - used: 31478.79 MB (84%) - free: 6068.88 MB (16%)
+[1508009916] Caught SIGTERM, shutting down...
+[1508009916] Successfully shutdown... (PID=53912)
+[1508009916] Event broker module 'NERD' deinitialized successfully.

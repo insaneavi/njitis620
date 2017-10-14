@@ -1,3 +1,1 @@
-ERROR: Errors in config files - see log for details: /usr/local/nagios/var/nagios.configtest
-Warning: Duplicate definition found for command 'check_snmp' (config file '/usr/local/nagios/etc/objects/commands.cfg', starting on line 192)
-Error: Could not add object property in file '/usr/local/nagios/etc/objects/commands.cfg' on line 193.
+OK - Configuration check verified
