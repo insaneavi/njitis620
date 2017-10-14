@@ -1,0 +1,448 @@
+[1506916800] LOG ROTATION: DAILY
+[1506916800] LOG VERSION: 2.0
+[1506916800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+[1506916800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+[1506916800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1506916800] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.001 second response time
+[1506916800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.11 ms
+[1506916800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 114195 MB (95.60% inode=97%):
+[1506916800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.2p2 Ubuntu-4ubuntu2.2 (protocol 2.0)
+[1506916800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2045 MB out of 2045 MB)
+[1506916800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 48 processes with STATE = RSZDT
+[1506917707] Auto-save of retention data completed successfully.
+[1506921307] Auto-save of retention data completed successfully.
+[1506924907] Auto-save of retention data completed successfully.
+[1506928507] Auto-save of retention data completed successfully.
+[1506932107] Auto-save of retention data completed successfully.
+[1506935707] Auto-save of retention data completed successfully.
+[1506939307] Auto-save of retention data completed successfully.
+[1506942907] Auto-save of retention data completed successfully.
+[1506946507] Auto-save of retention data completed successfully.
+[1506950107] Auto-save of retention data completed successfully.
+[1506953707] Auto-save of retention data completed successfully.
+[1506957307] Auto-save of retention data completed successfully.
+[1506960907] Auto-save of retention data completed successfully.
+[1506964507] Auto-save of retention data completed successfully.
+[1506968107] Auto-save of retention data completed successfully.
+[1506969075] Caught SIGTERM, shutting down...
+[1506969075] Successfully shutdown... (PID=1255)
+[1506969075] Event broker module 'NERD' deinitialized successfully.
+[1506969075] Nagios 4.3.4 starting... (PID=62672)
+[1506969075] Local time is Mon Oct 02 14:31:15 EDT 2017
+[1506969075] LOG VERSION: 2.0
+[1506969075] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506969075] qh: core query handler registered
+[1506969075] nerd: Channel hostchecks registered successfully
+[1506969075] nerd: Channel servicechecks registered successfully
+[1506969075] nerd: Channel opathchecks registered successfully
+[1506969075] nerd: Fully initialized and ready to rock!
+[1506969075] wproc: Successfully registered manager as @wproc with query handler
+[1506969075] wproc: Registry request: name=Core Worker 62675;pid=62675
+[1506969075] wproc: Registry request: name=Core Worker 62676;pid=62676
+[1506969075] wproc: Registry request: name=Core Worker 62674;pid=62674
+[1506969075] wproc: Registry request: name=Core Worker 62677;pid=62677
+[1506969075] Successfully launched command file worker with pid 62688
+[1506969075] HOST ALERT: google.com;DOWN;SOFT;1;CRITICAL - Network Unreachable (www.google.com)
+[1506969131] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;google.com;1506969127
+[1506969131] HOST ALERT: google.com;DOWN;SOFT;2;CRITICAL - Network Unreachable (www.google.com)
+[1506969147] HOST ALERT: google.com;DOWN;SOFT;3;CRITICAL - Network Unreachable (www.google.com)
+[1506969207] HOST ALERT: google.com;DOWN;SOFT;4;CRITICAL - Network Unreachable (www.google.com)
+[1506969219] SERVICE ALERT: google.com;PING;CRITICAL;SOFT;1;CRITICAL - Network Unreachable (www.google.com)
+[1506969519] HOST ALERT: google.com;DOWN;SOFT;5;CRITICAL - Network Unreachable (www.google.com)
+[1506969579] HOST ALERT: google.com;DOWN;SOFT;6;CRITICAL - Network Unreachable (www.google.com)
+[1506969639] HOST ALERT: google.com;DOWN;SOFT;7;CRITICAL - Network Unreachable (www.google.com)
+[1506969699] HOST ALERT: google.com;DOWN;SOFT;8;CRITICAL - Network Unreachable (www.google.com)
+[1506969747] HOST ALERT: google.com;DOWN;SOFT;9;CRITICAL - Network Unreachable (www.google.com)
+[1506969808] HOST ALERT: google.com;DOWN;HARD;10;CRITICAL - Network Unreachable (www.google.com)
+[1506969808] HOST NOTIFICATION: nagiosadmin;google.com;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (www.google.com)
+[1506969808] wproc: NOTIFY job 9 from worker Core Worker 62676 is a non-check helper but exited with return code 127
+[1506969808] wproc:   host=google.com; service=(none); contact=nagiosadmin
+[1506969808] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506969808] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506969808] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506969939] SERVICE ALERT: google.com;PING;CRITICAL;HARD;3;CRITICAL - Network Unreachable (www.google.com)
+[1506971411] Caught SIGTERM, shutting down...
+[1506971411] Successfully shutdown... (PID=62672)
+[1506971411] Event broker module 'NERD' deinitialized successfully.
+[1506971412] Nagios 4.3.4 starting... (PID=63197)
+[1506971412] Local time is Mon Oct 02 15:10:12 EDT 2017
+[1506971412] LOG VERSION: 2.0
+[1506971412] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506971412] qh: core query handler registered
+[1506971412] nerd: Channel hostchecks registered successfully
+[1506971412] nerd: Channel servicechecks registered successfully
+[1506971412] nerd: Channel opathchecks registered successfully
+[1506971412] nerd: Fully initialized and ready to rock!
+[1506971412] wproc: Successfully registered manager as @wproc with query handler
+[1506971412] wproc: Registry request: name=Core Worker 63200;pid=63200
+[1506971412] wproc: Registry request: name=Core Worker 63201;pid=63201
+[1506971412] wproc: Registry request: name=Core Worker 63202;pid=63202
+[1506971412] wproc: Registry request: name=Core Worker 63199;pid=63199
+[1506971412] Successfully launched command file worker with pid 63213
+[1506971659] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;google.com;1506971654
+[1506975012] Auto-save of retention data completed successfully.
+[1506977060] HOST NOTIFICATION: nagiosadmin;google.com;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (www.google.com)
+[1506977060] wproc: NOTIFY job 49 from worker Core Worker 63199 is a non-check helper but exited with return code 127
+[1506977060] wproc:   host=google.com; service=(none); contact=nagiosadmin
+[1506977060] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506977060] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506977060] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506978612] Auto-save of retention data completed successfully.
+[1506982212] Auto-save of retention data completed successfully.
+[1506985812] Auto-save of retention data completed successfully.
+[1506989412] Auto-save of retention data completed successfully.
+[1506990838] Caught SIGTERM, shutting down...
+[1506990838] Successfully shutdown... (PID=63197)
+[1506990838] Event broker module 'NERD' deinitialized successfully.
+[1506992412] Nagios 4.3.4 starting... (PID=2997)
+[1506992412] Local time is Mon Oct 02 21:00:12 EDT 2017
+[1506992412] LOG VERSION: 2.0
+[1506992412] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506992412] qh: core query handler registered
+[1506992412] nerd: Channel hostchecks registered successfully
+[1506992412] nerd: Channel servicechecks registered successfully
+[1506992412] nerd: Channel opathchecks registered successfully
+[1506992412] nerd: Fully initialized and ready to rock!
+[1506992412] wproc: Successfully registered manager as @wproc with query handler
+[1506992412] wproc: Registry request: name=Core Worker 3002;pid=3002
+[1506992412] wproc: Registry request: name=Core Worker 3003;pid=3003
+[1506992412] wproc: Registry request: name=Core Worker 3001;pid=3001
+[1506992412] wproc: Registry request: name=Core Worker 3004;pid=3004
+[1506992412] Successfully launched command file worker with pid 3008
+[1506992504] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992511] Caught SIGTERM, shutting down...
+[1506992511] Successfully shutdown... (PID=2997)
+[1506992511] Event broker module 'NERD' deinitialized successfully.
+[1506992605] Nagios 4.3.4 starting... (PID=3218)
+[1506992605] Local time is Mon Oct 02 21:03:25 EDT 2017
+[1506992605] LOG VERSION: 2.0
+[1506992605] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506992605] qh: core query handler registered
+[1506992605] nerd: Channel hostchecks registered successfully
+[1506992605] nerd: Channel servicechecks registered successfully
+[1506992605] nerd: Channel opathchecks registered successfully
+[1506992605] nerd: Fully initialized and ready to rock!
+[1506992605] wproc: Successfully registered manager as @wproc with query handler
+[1506992605] wproc: Registry request: name=Core Worker 3222;pid=3222
+[1506992605] wproc: Registry request: name=Core Worker 3221;pid=3221
+[1506992605] wproc: Registry request: name=Core Worker 3223;pid=3223
+[1506992605] wproc: Registry request: name=Core Worker 3220;pid=3220
+[1506992605] Successfully launched command file worker with pid 3228
+[1506992620] SERVICE ALERT: HYDRA-plex;Memory Usage;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992624] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992666] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA-plex;1506992664
+[1506992677] SERVICE ALERT: HYDRA;CPU Load;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992689] SERVICE ALERT: HYDRA;Memory Usage;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992712] SERVICE ALERT: HYDRA-plex;NSClient++ Version;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992740] SERVICE ALERT: HYDRA-plex;Memory Usage;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992744] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992744] SERVICE NOTIFICATION: nagiosadmin;HYDRA;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992744] wproc: NOTIFY job 4 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506992744] wproc:   host=HYDRA; service=C:\ Drive Space; contact=nagiosadmin
+[1506992744] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506992744] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506992744] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506992749] SERVICE ALERT: HYDRA-plex;CPU Load;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992782] SERVICE ALERT: HYDRA;NSClient++ Version;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992797] SERVICE ALERT: HYDRA;CPU Load;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992805] SERVICE ALERT: HYDRA-plex;Plex Media server;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992809] SERVICE ALERT: HYDRA;Memory Usage;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992832] SERVICE ALERT: HYDRA-plex;NSClient++ Version;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992860] SERVICE ALERT: HYDRA-plex;Memory Usage;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992860] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992860] wproc: NOTIFY job 7 from worker Core Worker 3223 is a non-check helper but exited with return code 127
+[1506992860] wproc:   host=HYDRA-plex; service=Memory Usage; contact=nagiosadmin
+[1506992860] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506992860] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506992860] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506992869] SERVICE ALERT: HYDRA-plex;CPU Load;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992874] SERVICE ALERT: HYDRA;Uptime;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992897] SERVICE ALERT: HYDRA-plex;Plex update service;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992902] SERVICE ALERT: HYDRA;NSClient++ Version;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992917] SERVICE ALERT: HYDRA;CPU Load;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992917] SERVICE NOTIFICATION: nagiosadmin;HYDRA;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992917] wproc: NOTIFY job 9 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506992917] wproc:   host=HYDRA; service=CPU Load; contact=nagiosadmin
+[1506992917] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506992917] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506992917] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506992925] SERVICE ALERT: HYDRA-plex;Plex Media server;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992929] SERVICE ALERT: HYDRA;Memory Usage;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992929] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506992929] wproc: NOTIFY job 10 from worker Core Worker 3223 is a non-check helper but exited with return code 127
+[1506992929] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1506992929] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506992929] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506992929] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506992952] SERVICE ALERT: HYDRA-plex;NSClient++ Version;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992952] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992952] wproc: NOTIFY job 11 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506992952] wproc:   host=HYDRA-plex; service=NSClient++ Version; contact=nagiosadmin
+[1506992952] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506992952] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506992952] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506992967] SERVICE ALERT: HYDRA-plex;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992989] SERVICE ALERT: HYDRA-plex;CPU Load;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992989] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992989] wproc: NOTIFY job 13 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506992989] wproc:   host=HYDRA-plex; service=CPU Load; contact=nagiosadmin
+[1506992989] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506992989] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506992989] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506992990] SERVICE ALERT: HYDRA-plex;Uptime;CRITICAL;SOFT;1;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506992994] SERVICE ALERT: HYDRA;Uptime;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506993017] SERVICE ALERT: HYDRA-plex;Plex update service;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993022] SERVICE ALERT: HYDRA;NSClient++ Version;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506993022] SERVICE NOTIFICATION: nagiosadmin;HYDRA;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506993022] wproc: NOTIFY job 14 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506993022] wproc:   host=HYDRA; service=NSClient++ Version; contact=nagiosadmin
+[1506993022] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993022] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993022] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993045] SERVICE ALERT: HYDRA-plex;Plex Media server;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993045] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Plex Media server;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993045] wproc: NOTIFY job 15 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506993045] wproc:   host=HYDRA-plex; service=Plex Media server; contact=nagiosadmin
+[1506993045] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993045] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993045] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993087] SERVICE ALERT: HYDRA-plex;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993110] SERVICE ALERT: HYDRA-plex;Uptime;CRITICAL;SOFT;2;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993114] SERVICE ALERT: HYDRA;Uptime;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506993114] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506993114] wproc: NOTIFY job 16 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506993114] wproc:   host=HYDRA; service=Uptime; contact=nagiosadmin
+[1506993114] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993114] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993114] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993130] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506993128
+[1506993137] SERVICE ALERT: HYDRA-plex;Plex update service;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993137] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Plex update service;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993137] wproc: NOTIFY job 17 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506993137] wproc:   host=HYDRA-plex; service=Plex update service; contact=nagiosadmin
+[1506993137] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993137] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993137] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993177] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506993176
+[1506993207] SERVICE ALERT: HYDRA-plex;C:\ Drive Space;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993207] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993207] wproc: NOTIFY job 18 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506993207] wproc:   host=HYDRA-plex; service=C:\ Drive Space; contact=nagiosadmin
+[1506993207] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993207] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993207] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993230] SERVICE ALERT: HYDRA-plex;Uptime;CRITICAL;HARD;3;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993230] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506993230] wproc: NOTIFY job 19 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506993230] wproc:   host=HYDRA-plex; service=Uptime; contact=nagiosadmin
+[1506993230] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993230] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993230] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993288] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA;C:\ Drive Space;1506993287
+[1506993288] SERVICE ALERT: HYDRA;C:\ Drive Space;OK;HARD;3;c:\ - total: 156.14 Gb - used: 59.92 Gb (38%) - free 96.21 Gb (62%)
+[1506993288] SERVICE NOTIFICATION: nagiosadmin;HYDRA;C:\ Drive Space;OK;notify-service-by-email;c:\ - total: 156.14 Gb - used: 59.92 Gb (38%) - free 96.21 Gb (62%)
+[1506993288] wproc: NOTIFY job 21 from worker Core Worker 3222 is a non-check helper but exited with return code 127
+[1506993288] wproc:   host=HYDRA; service=C:\ Drive Space; contact=nagiosadmin
+[1506993288] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993288] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993288] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993517] SERVICE ALERT: HYDRA;CPU Load;OK;HARD;3;CPU Load 4% (5 min average)
+[1506993517] SERVICE NOTIFICATION: nagiosadmin;HYDRA;CPU Load;OK;notify-service-by-email;CPU Load 4% (5 min average)
+[1506993517] wproc: NOTIFY job 23 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506993517] wproc:   host=HYDRA; service=CPU Load; contact=nagiosadmin
+[1506993517] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993517] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993517] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993529] SERVICE ALERT: HYDRA;Memory Usage;OK;HARD;3;Memory usage: total:37547.67 MB - used: 28895.36 MB (77%) - free: 8652.31 MB (23%)
+[1506993529] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;OK;notify-service-by-email;Memory usage: total:37547.67 MB - used: 28895.36 MB (77%) - free: 8652.31 MB (23%)
+[1506993529] wproc: NOTIFY job 23 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506993529] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1506993529] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506993529] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506993529] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506993726] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA;NSClient++ Version;1506993725
+[1506993888] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994008] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994117] SERVICE ALERT: HYDRA;CPU Load;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994128] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994128] SERVICE NOTIFICATION: nagiosadmin;HYDRA;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994128] wproc: NOTIFY job 33 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506994128] wproc:   host=HYDRA; service=C:\ Drive Space; contact=nagiosadmin
+[1506994128] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506994128] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506994128] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506994129] SERVICE ALERT: HYDRA;Memory Usage;CRITICAL;SOFT;1;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994237] SERVICE ALERT: HYDRA;CPU Load;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994249] SERVICE ALERT: HYDRA;Memory Usage;CRITICAL;SOFT;2;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994357] SERVICE ALERT: HYDRA;CPU Load;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994357] SERVICE NOTIFICATION: nagiosadmin;HYDRA;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994357] wproc: NOTIFY job 38 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506994357] wproc:   host=HYDRA; service=CPU Load; contact=nagiosadmin
+[1506994357] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506994357] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506994357] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506994369] SERVICE ALERT: HYDRA;Memory Usage;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994369] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506994369] wproc: NOTIFY job 38 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506994369] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1506994369] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506994369] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506994369] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506994639] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506994637
+[1506994706] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506994705
+[1506994802] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506994801
+[1506994828] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA;C:\ Drive Space;1506994827
+[1506994870] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506994869
+[1506994996] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506994995
+[1506995116] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506995114
+[1506995120] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506995119
+[1506995180] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506995179
+[1506995229] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506995228
+[1506995865] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506995863
+[1506996007] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506996005
+[1506996028] SERVICE ALERT: HYDRA;C:\ Drive Space;UNKNOWN;HARD;3;NSClient - ERROR: No performance data from command: check_drivesize
+[1506996028] SERVICE FLAPPING ALERT: HYDRA;C:\ Drive Space;STARTED; Service appears to have started flapping (23.0% change >= 20.0% threshold)
+[1506996205] Auto-save of retention data completed successfully.
+[1506996225] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA;C:\ Drive Space;1506996224
+[1506996225] SERVICE ALERT: HYDRA;C:\ Drive Space;CRITICAL;HARD;3;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506996255] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506996254
+[1506996282] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506996281
+[1506996352] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506996351
+[1506996460] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996460] wproc: NOTIFY job 71 from worker Core Worker 3223 is a non-check helper but exited with return code 127
+[1506996460] wproc:   host=HYDRA-plex; service=Memory Usage; contact=nagiosadmin
+[1506996460] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996460] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996460] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996552] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996552] wproc: NOTIFY job 72 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506996552] wproc:   host=HYDRA-plex; service=NSClient++ Version; contact=nagiosadmin
+[1506996552] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996552] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996552] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996589] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996589] wproc: NOTIFY job 73 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506996589] wproc:   host=HYDRA-plex; service=CPU Load; contact=nagiosadmin
+[1506996589] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996589] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996589] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996645] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Plex Media server;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996645] wproc: NOTIFY job 75 from worker Core Worker 3222 is a non-check helper but exited with return code 127
+[1506996645] wproc:   host=HYDRA-plex; service=Plex Media server; contact=nagiosadmin
+[1506996645] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996645] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996645] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996714] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506996714] wproc: NOTIFY job 76 from worker Core Worker 3222 is a non-check helper but exited with return code 127
+[1506996714] wproc:   host=HYDRA; service=Uptime; contact=nagiosadmin
+[1506996714] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996714] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996714] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996726] SERVICE NOTIFICATION: nagiosadmin;HYDRA;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506996726] wproc: NOTIFY job 76 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506996726] wproc:   host=HYDRA; service=NSClient++ Version; contact=nagiosadmin
+[1506996726] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996726] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996726] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996737] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Plex update service;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996737] wproc: NOTIFY job 77 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506996737] wproc:   host=HYDRA-plex; service=Plex update service; contact=nagiosadmin
+[1506996737] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996737] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996737] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996807] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996807] wproc: NOTIFY job 78 from worker Core Worker 3223 is a non-check helper but exited with return code 127
+[1506996807] wproc:   host=HYDRA-plex; service=C:\ Drive Space; contact=nagiosadmin
+[1506996807] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996807] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996807] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506996830] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1506996830] wproc: NOTIFY job 79 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506996830] wproc:   host=HYDRA-plex; service=Uptime; contact=nagiosadmin
+[1506996830] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506996830] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506996830] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506997957] SERVICE NOTIFICATION: nagiosadmin;HYDRA;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506997957] wproc: NOTIFY job 95 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1506997957] wproc:   host=HYDRA; service=CPU Load; contact=nagiosadmin
+[1506997957] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506997957] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506997957] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506997969] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1506997969] wproc: NOTIFY job 95 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1506997969] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1506997969] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506997969] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1506997969] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506999805] Auto-save of retention data completed successfully.
+[1506999813] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506999811
+[1506999861] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506999860
+[1506999876] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1506999875
+[1507000049] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1507000048
+[1507000060] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000060] wproc: NOTIFY job 126 from worker Core Worker 3222 is a non-check helper but exited with return code 127
+[1507000060] wproc:   host=HYDRA-plex; service=Memory Usage; contact=nagiosadmin
+[1507000060] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000060] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000060] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000152] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000152] wproc: NOTIFY job 127 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1507000152] wproc:   host=HYDRA-plex; service=NSClient++ Version; contact=nagiosadmin
+[1507000152] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000152] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000152] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000189] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000189] wproc: NOTIFY job 128 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1507000189] wproc:   host=HYDRA-plex; service=CPU Load; contact=nagiosadmin
+[1507000189] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000189] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000189] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000245] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Plex Media server;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000245] wproc: NOTIFY job 129 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1507000245] wproc:   host=HYDRA-plex; service=Plex Media server; contact=nagiosadmin
+[1507000245] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000245] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000245] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000314] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1507000314] wproc: NOTIFY job 130 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1507000314] wproc:   host=HYDRA; service=Uptime; contact=nagiosadmin
+[1507000314] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000314] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000314] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000326] SERVICE NOTIFICATION: nagiosadmin;HYDRA;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1507000326] wproc: NOTIFY job 131 from worker Core Worker 3222 is a non-check helper but exited with return code 127
+[1507000326] wproc:   host=HYDRA; service=NSClient++ Version; contact=nagiosadmin
+[1507000326] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000326] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000326] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000337] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Plex update service;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000337] wproc: NOTIFY job 131 from worker Core Worker 3223 is a non-check helper but exited with return code 127
+[1507000337] wproc:   host=HYDRA-plex; service=Plex update service; contact=nagiosadmin
+[1507000337] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000337] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000337] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000356] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;HYDRA;1507000352
+[1507000407] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000407] wproc: NOTIFY job 133 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1507000407] wproc:   host=HYDRA-plex; service=C:\ Drive Space; contact=nagiosadmin
+[1507000407] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000407] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000407] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507000430] SERVICE NOTIFICATION: nagiosadmin;HYDRA-plex;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.20 and port 12489: Connection refused
+[1507000430] wproc: NOTIFY job 134 from worker Core Worker 3222 is a non-check helper but exited with return code 127
+[1507000430] wproc:   host=HYDRA-plex; service=Uptime; contact=nagiosadmin
+[1507000430] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507000430] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507000430] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507001557] SERVICE NOTIFICATION: nagiosadmin;HYDRA;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1507001557] wproc: NOTIFY job 149 from worker Core Worker 3220 is a non-check helper but exited with return code 127
+[1507001557] wproc:   host=HYDRA; service=CPU Load; contact=nagiosadmin
+[1507001557] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507001557] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507001557] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507001569] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.1.11 and port 12489: Connection refused
+[1507001569] wproc: NOTIFY job 150 from worker Core Worker 3221 is a non-check helper but exited with return code 127
+[1507001569] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507001569] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507001569] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507001569] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe

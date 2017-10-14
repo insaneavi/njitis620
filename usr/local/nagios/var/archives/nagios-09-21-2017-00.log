@@ -1,0 +1,53 @@
+[1505952809] Nagios 4.3.4 starting... (PID=42939)
+[1505952809] Local time is Wed Sep 20 20:13:29 EDT 2017
+[1505952809] LOG VERSION: 2.0
+[1505952809] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505952809] qh: core query handler registered
+[1505952809] nerd: Channel hostchecks registered successfully
+[1505952809] nerd: Channel servicechecks registered successfully
+[1505952809] nerd: Channel opathchecks registered successfully
+[1505952809] nerd: Fully initialized and ready to rock!
+[1505952809] wproc: Successfully registered manager as @wproc with query handler
+[1505952809] wproc: Registry request: name=Core Worker 42944;pid=42944
+[1505952809] wproc: Registry request: name=Core Worker 42942;pid=42942
+[1505952809] wproc: Registry request: name=Core Worker 42945;pid=42945
+[1505952809] wproc: Registry request: name=Core Worker 42943;pid=42943
+[1505952809] Successfully launched command file worker with pid 42950
+[1505952809] HOST ALERT: localhost;DOWN;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505952846] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_load, ...) failed. errno is 2: No such file or directory
+[1505952846] HOST ALERT: localhost;DOWN;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505952884] SERVICE ALERT: localhost;Current Users;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_users, ...) failed. errno is 2: No such file or directory
+[1505952884] HOST ALERT: localhost;DOWN;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505952921] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_http, ...) failed. errno is 2: No such file or directory
+[1505952921] HOST ALERT: localhost;DOWN;SOFT;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505952959] SERVICE ALERT: localhost;PING;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505952959] HOST ALERT: localhost;DOWN;SOFT;5;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505952996] SERVICE ALERT: localhost;Root Partition;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_disk, ...) failed. errno is 2: No such file or directory
+[1505952996] HOST ALERT: localhost;DOWN;SOFT;6;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505953034] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ssh, ...) failed. errno is 2: No such file or directory
+[1505953034] HOST ALERT: localhost;DOWN;SOFT;7;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505953071] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_swap, ...) failed. errno is 2: No such file or directory
+[1505953071] HOST ALERT: localhost;DOWN;SOFT;8;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505953109] SERVICE ALERT: localhost;Total Processes;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_procs, ...) failed. errno is 2: No such file or directory
+[1505953109] HOST ALERT: localhost;DOWN;SOFT;9;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505953169] HOST ALERT: localhost;DOWN;HARD;10;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505953206] SERVICE ALERT: localhost;Current Load;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_load, ...) failed. errno is 2: No such file or directory
+[1505953244] SERVICE ALERT: localhost;Current Users;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_users, ...) failed. errno is 2: No such file or directory
+[1505953281] SERVICE ALERT: localhost;HTTP;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_http, ...) failed. errno is 2: No such file or directory
+[1505953319] SERVICE ALERT: localhost;PING;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505953356] SERVICE ALERT: localhost;Root Partition;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_disk, ...) failed. errno is 2: No such file or directory
+[1505953394] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ssh, ...) failed. errno is 2: No such file or directory
+[1505953431] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_swap, ...) failed. errno is 2: No such file or directory
+[1505953469] SERVICE ALERT: localhost;Total Processes;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_procs, ...) failed. errno is 2: No such file or directory
+[1505953623] SERVICE ALERT: localhost;PING;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.11 ms
+[1505953627] HOST ALERT: localhost;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.11 ms
+[1505953656] SERVICE ALERT: localhost;Root Partition;OK;HARD;3;DISK OK - free space: / 114027 MB (95.46% inode=97%):
+[1505953694] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1505953731] SERVICE ALERT: localhost;Swap Usage;OK;HARD;3;SWAP OK - 100% free (2045 MB out of 2045 MB)
+[1505953769] SERVICE ALERT: localhost;Total Processes;OK;HARD;3;PROCS OK: 55 processes with STATE = RSZDT
+[1505953806] SERVICE ALERT: localhost;Current Load;OK;HARD;3;OK - load average: 0.51, 0.82, 0.75
+[1505953844] SERVICE ALERT: localhost;Current Users;OK;HARD;3;USERS OK - 1 users currently logged in
+[1505953881] SERVICE ALERT: localhost;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.001 second response time
+[1505956409] Auto-save of retention data completed successfully.
+[1505960009] Auto-save of retention data completed successfully.
+[1505963609] Auto-save of retention data completed successfully.

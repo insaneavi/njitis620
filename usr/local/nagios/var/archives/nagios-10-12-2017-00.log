@@ -1,0 +1,505 @@
+[1507694400] LOG ROTATION: DAILY
+[1507694400] LOG VERSION: 2.0
+[1507694400] CURRENT HOST STATE: HYDRA;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.66 ms
+[1507694400] CURRENT HOST STATE: HYDRA-plex;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.79 ms
+[1507694400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+[1507694400] CURRENT HOST STATE: rt-n66u;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.72 ms
+[1507694400] CURRENT SERVICE STATE: HYDRA;C:\ Drive Space;OK;HARD;1;c:\ - total: 156.14 Gb - used: 60.67 Gb (39%) - free 95.46 Gb (61%)
+[1507694400] CURRENT SERVICE STATE: HYDRA;CPU Load;OK;HARD;1;CPU Load 6% (5 min average)
+[1507694400] CURRENT SERVICE STATE: HYDRA;D:\ Drive Space;OK;HARD;1;d:\ - total: 1519.21 Gb - used: 361.58 Gb (24%) - free 1157.62 Gb (76%)
+[1507694400] CURRENT SERVICE STATE: HYDRA;Memory Usage;WARNING;HARD;3;Memory usage: total:37547.67 MB - used: 30294.78 MB (81%) - free: 7252.89 MB (19%)
+[1507694400] CURRENT SERVICE STATE: HYDRA;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.62 2016-09-14
+[1507694400] CURRENT SERVICE STATE: HYDRA;Uptime;OK;HARD;1;System Uptime - 61 day(s) 10 hour(s) 26 minute(s)
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;C:\ Drive Space;OK;HARD;1;c:\ - total: 599.46 Gb - used: 310.89 Gb (52%) - free 288.57 Gb (48%)
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;CPU Load;OK;HARD;1;CPU Load 10% (5 min average)
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;Memory Usage;OK;HARD;1;Memory usage: total:32767.83 MB - used: 3161.03 MB (10%) - free: 29606.80 MB (90%)
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.23 2016-04-05
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;Plex Media server;OK;HARD;1;Plex Media Server.exe: Running
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;Plex update service;OK;HARD;1;Plex Update Service: Started
+[1507694400] CURRENT SERVICE STATE: HYDRA-plex;Uptime;OK;HARD;1;System Uptime - 3 day(s) 8 hour(s) 41 minute(s)
+[1507694400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.05, 0.10, 0.09
+[1507694400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1507694400] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.001 second response time
+[1507694400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+[1507694400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 113919 MB (95.37% inode=96%):
+[1507694400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.2p2 Ubuntu-4ubuntu2.2 (protocol 2.0)
+[1507694400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2045 MB out of 2045 MB)
+[1507694400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 53 processes with STATE = RSZDT
+[1507694400] CURRENT SERVICE STATE: rt-n66u;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.68 ms
+[1507694400] CURRENT SERVICE STATE: rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;HARD;3;check_mrtgtraf: Unable to open MRTG log file
+[1507694400] CURRENT SERVICE STATE: rt-n66u;Port 1 Link Status;UNKNOWN;HARD;3;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507694400] CURRENT SERVICE STATE: rt-n66u;Uptime;OK;HARD;1;SNMP OK - 278198285
+[1507695447] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30293.51 MB (81%) - free: 7254.16 MB (19%)
+[1507695447] wproc: NOTIFY job 9439 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507695447] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507695447] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507695447] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507695447] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507695991] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507695991] wproc: NOTIFY job 9448 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507695991] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507695991] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507695991] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507695991] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507696616] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507696616] wproc: NOTIFY job 9459 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507696616] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507696616] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507696616] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507696616] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507696931] Auto-save of retention data completed successfully.
+[1507699047] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30344.15 MB (81%) - free: 7203.52 MB (19%)
+[1507699047] wproc: NOTIFY job 9503 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507699047] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507699047] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507699047] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507699047] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507699591] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507699591] wproc: NOTIFY job 9512 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507699591] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507699591] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507699591] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507699591] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507700216] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507700216] wproc: NOTIFY job 9523 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507700216] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507700216] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507700216] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507700216] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507700531] Auto-save of retention data completed successfully.
+[1507702647] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30304.24 MB (81%) - free: 7243.43 MB (19%)
+[1507702647] wproc: NOTIFY job 9566 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507702647] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507702647] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507702647] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507702647] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507703191] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507703191] wproc: NOTIFY job 9575 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507703191] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507703191] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507703191] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507703191] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507703816] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507703816] wproc: NOTIFY job 9587 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507703816] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507703816] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507703816] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507703816] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507704131] Auto-save of retention data completed successfully.
+[1507706247] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30343.35 MB (81%) - free: 7204.32 MB (19%)
+[1507706247] wproc: NOTIFY job 9630 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507706247] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507706247] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507706247] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507706247] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507706791] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507706791] wproc: NOTIFY job 9639 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507706791] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507706791] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507706791] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507706791] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507707416] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507707416] wproc: NOTIFY job 9650 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507707416] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507707416] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507707416] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507707416] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507707731] Auto-save of retention data completed successfully.
+[1507709847] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30302.48 MB (81%) - free: 7245.19 MB (19%)
+[1507709847] wproc: NOTIFY job 9694 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507709847] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507709847] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507709847] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507709847] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507710391] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507710391] wproc: NOTIFY job 9702 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507710391] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507710391] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507710391] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507710391] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507711016] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507711016] wproc: NOTIFY job 9714 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507711016] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507711016] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507711016] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507711016] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507711331] Auto-save of retention data completed successfully.
+[1507713447] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30360.19 MB (81%) - free: 7187.48 MB (19%)
+[1507713447] wproc: NOTIFY job 9757 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507713447] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507713447] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507713447] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507713447] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507713991] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507713991] wproc: NOTIFY job 9766 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507713991] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507713991] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507713991] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507713991] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507714616] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507714616] wproc: NOTIFY job 9777 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507714616] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507714616] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507714616] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507714616] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507714931] Auto-save of retention data completed successfully.
+[1507717047] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30414.17 MB (81%) - free: 7133.50 MB (19%)
+[1507717047] wproc: NOTIFY job 9820 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507717047] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507717047] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507717047] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507717047] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507717591] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507717591] wproc: NOTIFY job 9829 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507717591] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507717591] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507717591] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507717591] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507718216] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507718216] wproc: NOTIFY job 9841 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507718216] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507718216] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507718216] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507718216] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507718531] Auto-save of retention data completed successfully.
+[1507720647] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30442.24 MB (81%) - free: 7105.43 MB (19%)
+[1507720647] wproc: NOTIFY job 9884 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507720647] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507720647] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507720647] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507720647] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507721191] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507721191] wproc: NOTIFY job 9893 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507721191] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507721191] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507721191] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507721191] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507721816] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507721816] wproc: NOTIFY job 9905 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507721816] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507721816] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507721816] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507721816] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507722131] Auto-save of retention data completed successfully.
+[1507724247] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30188.18 MB (80%) - free: 7359.49 MB (20%)
+[1507724247] wproc: NOTIFY job 9948 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507724247] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507724247] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507724247] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507724247] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507724791] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507724791] wproc: NOTIFY job 9957 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507724791] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507724791] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507724791] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507724791] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507725416] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507725416] wproc: NOTIFY job 9968 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507725416] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507725416] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507725416] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507725416] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507725731] Auto-save of retention data completed successfully.
+[1507727847] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30195.86 MB (80%) - free: 7351.81 MB (20%)
+[1507727847] wproc: NOTIFY job 10012 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507727847] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507727847] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507727847] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507727847] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507728391] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507728391] wproc: NOTIFY job 10020 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507728391] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507728391] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507728391] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507728391] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507729016] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507729016] wproc: NOTIFY job 10032 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507729016] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507729016] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507729016] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507729016] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507729331] Auto-save of retention data completed successfully.
+[1507731447] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30348.60 MB (81%) - free: 7199.07 MB (19%)
+[1507731447] wproc: NOTIFY job 10075 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507731447] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507731447] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507731447] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507731447] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507731991] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507731991] wproc: NOTIFY job 10084 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507731991] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507731991] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507731991] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507731991] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507732616] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507732616] wproc: NOTIFY job 10096 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507732616] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507732616] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507732616] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507732616] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507732931] Auto-save of retention data completed successfully.
+[1507735047] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30356.92 MB (81%) - free: 7190.75 MB (19%)
+[1507735047] wproc: NOTIFY job 10139 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507735047] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507735047] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507735047] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507735047] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507735591] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507735591] wproc: NOTIFY job 10147 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507735591] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507735591] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507735591] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507735591] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507736216] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507736216] wproc: NOTIFY job 10159 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507736216] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507736216] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507736216] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507736216] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507736531] Auto-save of retention data completed successfully.
+[1507738647] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30370.22 MB (81%) - free: 7177.45 MB (19%)
+[1507738648] wproc: NOTIFY job 10202 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507738648] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507738648] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507738648] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507738648] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507739191] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507739191] wproc: NOTIFY job 10211 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507739191] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507739191] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507739191] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507739191] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507739816] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507739816] wproc: NOTIFY job 10222 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507739816] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507739816] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507739816] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507739816] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507740131] Auto-save of retention data completed successfully.
+[1507742247] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30366.04 MB (81%) - free: 7181.63 MB (19%)
+[1507742247] wproc: NOTIFY job 10266 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507742247] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507742247] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507742247] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507742247] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507742791] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507742791] wproc: NOTIFY job 10275 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507742791] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507742791] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507742791] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507742791] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507743416] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507743416] wproc: NOTIFY job 10286 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507743416] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507743416] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507743416] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507743416] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507743731] Auto-save of retention data completed successfully.
+[1507745847] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30210.91 MB (80%) - free: 7336.76 MB (20%)
+[1507745847] wproc: NOTIFY job 10329 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507745847] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507745847] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507745847] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507745847] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507746391] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507746391] wproc: NOTIFY job 10338 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507746391] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507746391] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507746391] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507746391] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507747016] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507747016] wproc: NOTIFY job 10350 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507747016] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507747016] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507747016] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507747016] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507747331] Auto-save of retention data completed successfully.
+[1507749447] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30208.22 MB (80%) - free: 7339.45 MB (20%)
+[1507749447] wproc: NOTIFY job 10393 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507749447] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507749447] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507749447] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507749447] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507749991] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507749991] wproc: NOTIFY job 10402 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507749991] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507749991] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507749991] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507749991] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507750616] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507750616] wproc: NOTIFY job 10413 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507750616] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507750616] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507750616] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507750616] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507750931] Auto-save of retention data completed successfully.
+[1507753047] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30202.88 MB (80%) - free: 7344.79 MB (20%)
+[1507753047] wproc: NOTIFY job 10457 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507753047] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507753047] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507753047] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507753047] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507753591] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507753591] wproc: NOTIFY job 10466 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507753591] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507753591] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507753591] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507753591] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507754216] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507754216] wproc: NOTIFY job 10477 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507754216] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507754216] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507754216] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507754216] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507754531] Auto-save of retention data completed successfully.
+[1507756647] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30362.16 MB (81%) - free: 7185.51 MB (19%)
+[1507756647] wproc: NOTIFY job 10520 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507756647] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507756647] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507756647] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507756647] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507757191] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507757191] wproc: NOTIFY job 10529 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507757191] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507757191] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507757191] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507757191] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507757816] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507757816] wproc: NOTIFY job 10540 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507757816] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507757816] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507757816] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507757816] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507758131] Auto-save of retention data completed successfully.
+[1507760247] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 30379.74 MB (81%) - free: 7167.93 MB (19%)
+[1507760247] wproc: NOTIFY job 10584 from worker Core Worker 53854 is a non-check helper but exited with return code 127
+[1507760247] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507760247] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507760247] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507760247] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507760791] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507760791] wproc: NOTIFY job 10592 from worker Core Worker 53853 is a non-check helper but exited with return code 127
+[1507760791] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507760791] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507760791] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507760791] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507761416] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507761416] wproc: NOTIFY job 10604 from worker Core Worker 53852 is a non-check helper but exited with return code 127
+[1507761416] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507761416] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507761416] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507761416] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507761731] Auto-save of retention data completed successfully.
+[1507763847] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 31667.54 MB (84%) - free: 5880.13 MB (16%)
+[1507763847] wproc: NOTIFY job 10647 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507763847] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507763847] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507763847] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507763847] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507764391] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507764391] wproc: NOTIFY job 10656 from worker Core Worker 53855 is a non-check helper but exited with return code 127
+[1507764391] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507764391] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507764391] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507764391] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507764960] Caught SIGTERM, shutting down...
+[1507764960] Successfully shutdown... (PID=53850)
+[1507764960] Event broker module 'NERD' deinitialized successfully.
+[1507765011] Nagios 4.3.4 starting... (PID=1613)
+[1507765011] Local time is Wed Oct 11 19:36:51 EDT 2017
+[1507765011] LOG VERSION: 2.0
+[1507765011] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1507765011] qh: core query handler registered
+[1507765011] nerd: Channel hostchecks registered successfully
+[1507765011] nerd: Channel servicechecks registered successfully
+[1507765011] nerd: Channel opathchecks registered successfully
+[1507765011] nerd: Fully initialized and ready to rock!
+[1507765011] wproc: Successfully registered manager as @wproc with query handler
+[1507765011] wproc: Registry request: name=Core Worker 1618;pid=1618
+[1507765011] wproc: Registry request: name=Core Worker 1616;pid=1616
+[1507765011] wproc: Registry request: name=Core Worker 1619;pid=1619
+[1507765011] wproc: Registry request: name=Core Worker 1620;pid=1620
+[1507765012] Successfully launched command file worker with pid 1623
+[1507765016] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507765016] wproc: NOTIFY job 0 from worker Core Worker 1616 is a non-check helper but exited with return code 127
+[1507765016] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507765016] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507765016] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507765016] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507765063] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;rt-n66u;Uptimev2;1507765062
+[1507767447] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32365.95 MB (86%) - free: 5181.72 MB (14%)
+[1507767447] wproc: NOTIFY job 44 from worker Core Worker 1619 is a non-check helper but exited with return code 127
+[1507767447] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507767447] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507767447] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507767447] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507768317] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507768317] wproc: NOTIFY job 61 from worker Core Worker 1616 is a non-check helper but exited with return code 127
+[1507768317] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507768317] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507768317] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507768317] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507768612] Auto-save of retention data completed successfully.
+[1507768616] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507768616] wproc: NOTIFY job 65 from worker Core Worker 1619 is a non-check helper but exited with return code 127
+[1507768616] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507768616] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507768616] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507768616] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507771047] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32220.08 MB (86%) - free: 5327.59 MB (14%)
+[1507771047] wproc: NOTIFY job 109 from worker Core Worker 1620 is a non-check helper but exited with return code 127
+[1507771047] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507771047] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507771047] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507771047] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507771917] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507771917] wproc: NOTIFY job 126 from worker Core Worker 1616 is a non-check helper but exited with return code 127
+[1507771917] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507771917] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507771917] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507771917] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507772212] Auto-save of retention data completed successfully.
+[1507772216] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507772216] wproc: NOTIFY job 130 from worker Core Worker 1619 is a non-check helper but exited with return code 127
+[1507772216] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507772216] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507772216] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507772216] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507774647] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32457.01 MB (86%) - free: 5090.66 MB (14%)
+[1507774647] wproc: NOTIFY job 174 from worker Core Worker 1620 is a non-check helper but exited with return code 127
+[1507774647] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507774647] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507774647] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507774647] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507775517] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507775517] wproc: NOTIFY job 191 from worker Core Worker 1619 is a non-check helper but exited with return code 127
+[1507775517] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507775517] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507775517] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507775517] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507775812] Auto-save of retention data completed successfully.
+[1507775816] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507775816] wproc: NOTIFY job 195 from worker Core Worker 1620 is a non-check helper but exited with return code 127
+[1507775816] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507775816] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507775816] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507775816] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507778247] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32347.58 MB (86%) - free: 5200.09 MB (14%)
+[1507778247] wproc: NOTIFY job 240 from worker Core Worker 1618 is a non-check helper but exited with return code 127
+[1507778247] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1507778247] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507778247] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507778247] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507779117] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Bandwidth Usage;UNKNOWN;notify-service-by-email;check_mrtgtraf: Unable to open MRTG log file
+[1507779117] wproc: NOTIFY job 256 from worker Core Worker 1616 is a non-check helper but exited with return code 127
+[1507779117] wproc:   host=rt-n66u; service=Port 1 Bandwidth Usage; contact=nagiosadmin
+[1507779117] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507779117] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507779117] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1507779412] Auto-save of retention data completed successfully.
+[1507779416] SERVICE NOTIFICATION: nagiosadmin;rt-n66u;Port 1 Link Status;UNKNOWN;notify-service-by-email;External command error: MIB search path: $HOME/.snmp/mibs:/usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf:/usr/share/mibs/site:/usr/share/snmp/mibs:/usr/share/mibs/iana:/usr/share/mibs/ietf:/usr/share/mibs/netsnmp
+[1507779416] wproc: NOTIFY job 260 from worker Core Worker 1619 is a non-check helper but exited with return code 127
+[1507779416] wproc:   host=rt-n66u; service=Port 1 Link Status; contact=nagiosadmin
+[1507779416] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1507779416] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1507779416] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
