@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Log file pattern detector plugin for Nagios
+# Log file pattern detector plugin for monitoring
 # Written by Ethan Galstad (nagios@nagios.org)
 # Last Modified: 07-31-1999
 #
@@ -29,15 +29,15 @@
 #
 # If you use this plugin make sure to keep the following in mind:
 #
-#    1.  The "max_attempts" value for the service should be 1, as this
-#        will prevent Nagios from retrying the service check (the
+#    1.  The "max_attempts" value for the service should be 1, as this will
+#        prevent the monitoring system from retrying the service check (the
 #        next time the check is run it will not produce the same results).
 #
-#    2.  The "notify_recovery" value for the service should be 0, so that
-#        Nagios does not notify you of "recoveries" for the check.  Since
-#        pattern matches in the log file will only be reported once and not
-#        the next time, there will always be "recoveries" for the service, even
-#        though recoveries really don't apply to this type of check.
+#    2.  The "notify_recovery" value for the service should be 0, so that the
+#        monitoring system does not notify you of "recoveries" for the check.
+#        Since pattern matches in the log file will only be reported once and
+#        not the next time, there will always be "recoveries" for the service,
+#        even though recoveries really don't apply to this type of check.
 #
 #    3.  You *must* supply a different <old_file_log> for each service that
 #        you define to use this plugin script - even if the different services
@@ -63,9 +63,6 @@ export PATH
 PROGNAME=`basename $0`
 PROGPATH=`echo $0 | sed -e 's,[\\/][^\\/][^\\/]*$,,'`
 REVISION="2.1.2"
-PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin"
-
-export PATH
 
 . $PROGPATH/utils.sh
 
@@ -73,9 +70,6 @@ print_usage() {
     echo "Usage: $PROGNAME -F logfile -O oldlog -q query"
     echo "Usage: $PROGNAME --help"
     echo "Usage: $PROGNAME --version"
-    echo "     Aditional parameter:"
-    echo "        -w (--max_warning) If used, determines the maximum matching value to return as warning, when finding more matching lines than this parameter will return as critical. If not used, will consider as default 0 (any matching will consider as critical)"
-    echo "Usage: $PROGNAME -F logfile -O oldlog -q query -w <number>"
 }
 
 print_help() {
@@ -83,7 +77,7 @@ print_help() {
     echo ""
     print_usage
     echo ""
-    echo "Log file pattern detector plugin for Nagios"
+    echo "Log file pattern detector plugin for monitoring"
     echo ""
     support
 }
@@ -134,14 +128,6 @@ while test -n "$1"; do
             ;;
         -O)
             oldlog=$2
-            shift
-            ;;
-        --max_warning)
-            MAX_WARNING=$2
-            shift
-            ;;
-        -w)
-            MAX_WARNING=$2
             shift
             ;;
         --query)
@@ -214,15 +200,11 @@ rm -f $tempdiff
 cat $logfile > $oldlog
 
 if [ "$count" = "0" ]; then # no matches, exit with no error
-    echo "Log check ok - 0 pattern matches found|match=$count;;;0"
+    echo "Log check ok - 0 pattern matches found"
     exitstatus=$STATE_OK
 else # Print total matche count and the last entry we found
-    echo "($count) $lastentry|match=$count;;;0"
-    if [ $MAX_WARNING ] && [ $count -le $MAX_WARNING ] ; then
-        exitstatus=$STATE_WARNING
-    else
-        exitstatus=$STATE_CRITICAL
-    fi
+    echo "($count) $lastentry"
+    exitstatus=$STATE_CRITICAL
 fi
 
 exit $exitstatus
