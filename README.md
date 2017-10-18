@@ -10,6 +10,11 @@
 #  octets https://imgur.com/a/op7Iw
 #  Added OMEGA via NSClient++, Monitors, Disk/cpu/memory, Will also moni…
 #  tor backup service and disk IO - https://imgur.com/1auTuw7
+#  I then created a custom Command in the Nagios Commands to allow this new plugin to be used,
+#  I then defined the host and the service to monitor the disk IO of the test media server and alert to warn @ 10 % usage,
+#  and Critial @ 100% usage - https://imgur.com/b0ubgt5
+#
+#
 #  Project Deliverables
 #  
 #  Identity one of your services that logs errors.  Configure Nagios to alert properly on that data - 
