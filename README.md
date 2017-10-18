@@ -1,4 +1,7 @@
 # njitis620
+
+#  Prior to First Github Upload, - Spun up Linx VM, Set Static IP, Installed Nagios with basic Config 
+#  Enabled SNMP on Main Router, and Enabled Basic SNMP on topsite Host
 #  Nagios using nsclient++ for windows hosts, SNMP for router and media …
 #  https://imgur.com/a/QjAbQ
 #  Finally got Plugin to work, plugin checkuptime via SNMP , removed non…
