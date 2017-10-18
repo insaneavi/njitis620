@@ -1,200 +1,371 @@
-[1508040000] LOG ROTATION: DAILY
-[1508040000] LOG VERSION: 2.0
-[1508040000] CURRENT HOST STATE: HYDRA;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.72 ms
-[1508040000] CURRENT HOST STATE: HYDRA-plex;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.82 ms
-[1508040000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.12 ms
-[1508040000] CURRENT HOST STATE: rt-n66u;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.64 ms
-[1508040000] CURRENT HOST STATE: topsite;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.69 ms
-[1508040000] CURRENT SERVICE STATE: HYDRA;C:\ Drive Space;OK;HARD;1;c:\ - total: 156.14 Gb - used: 60.24 Gb (39%) - free 95.90 Gb (61%)
-[1508040000] CURRENT SERVICE STATE: HYDRA;CPU Load;OK;HARD;1;CPU Load 8% (5 min average)
-[1508040000] CURRENT SERVICE STATE: HYDRA;D:\ Drive Space;OK;HARD;1;d:\ - total: 1519.21 Gb - used: 367.51 Gb (24%) - free 1151.70 Gb (76%)
-[1508040000] CURRENT SERVICE STATE: HYDRA;HYDRA Hyper-V Virtual Machine Management;OK;HARD;1;vmms: Started
-[1508040000] CURRENT SERVICE STATE: HYDRA;Memory Usage;WARNING;HARD;3;Memory usage: total:37547.67 MB - used: 31799.24 MB (85%) - free: 5748.43 MB (15%)
-[1508040000] CURRENT SERVICE STATE: HYDRA;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.62 2016-09-14
-[1508040000] CURRENT SERVICE STATE: HYDRA;Uptime;OK;HARD;1;System Uptime - 65 day(s) 10 hour(s) 23 minute(s)
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;C:\ Drive Space;OK;HARD;1;c:\ - total: 599.46 Gb - used: 306.55 Gb (51%) - free 292.91 Gb (49%)
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;Memory Usage;OK;HARD;1;Memory usage: total:32767.83 MB - used: 3588.46 MB (11%) - free: 29179.37 MB (89%)
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.23 2016-04-05
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;Plex Media server;OK;HARD;1;Plex Media Server.exe: Running
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;Plex update service;OK;HARD;1;Plex Update Service: Started
-[1508040000] CURRENT SERVICE STATE: HYDRA-plex;Uptime;OK;HARD;1;System Uptime - 7 day(s) 8 hour(s) 46 minute(s)
-[1508040000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.02, 0.03, 0.00
-[1508040000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 4 users currently logged in
-[1508040000] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.001 second response time
-[1508040000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.11 ms
-[1508040000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 113242 MB (94% inode=95%):
-[1508040000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.2p2 Ubuntu-4ubuntu2.2 (protocol 2.0)
-[1508040000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2045 MB out of 2045 MB)
-[1508040000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 58 processes with STATE = RSZDT
-[1508040000] CURRENT SERVICE STATE: rt-n66u;Checking swap space alert;OK;HARD;1;SNMP OK - "Running out of swap space (0)"
-[1508040000] CURRENT SERVICE STATE: rt-n66u;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.58 ms
-[1508040000] CURRENT SERVICE STATE: rt-n66u;Received WAN Traffic;OK;HARD;1;SNMP OK - 1389389130
-[1508040000] CURRENT SERVICE STATE: rt-n66u;Sent WAN Traffic;OK;HARD;1;SNMP OK - 4094756554
-[1508040000] CURRENT SERVICE STATE: rt-n66u;UPTIME using plugin snmp;OK;HARD;1;SNMP uptime: 11 days, 4 hours, 37 minutes, 57 seconds : OK
-[1508040000] CURRENT SERVICE STATE: topsite;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
-[1508040000] CURRENT SERVICE STATE: topsite;UPTIME using plugin snmp;OK;HARD;1;SNMP uptime: 12 days, 13 hours, 16 minutes, 23 seconds : OK
-[1508041033] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 31807.72 MB (85%) - free: 5739.95 MB (15%)
-[1508041033] wproc: NOTIFY job 107 from worker Core Worker 64878 is a non-check helper but exited with return code 127
-[1508041033] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508041033] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508041033] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508041033] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508043010] Auto-save of retention data completed successfully.
-[1508044633] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32031.81 MB (85%) - free: 5515.86 MB (15%)
-[1508044633] wproc: NOTIFY job 181 from worker Core Worker 64881 is a non-check helper but exited with return code 127
-[1508044633] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508044633] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508044633] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508044633] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508046610] Auto-save of retention data completed successfully.
-[1508048233] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 31990.58 MB (85%) - free: 5557.09 MB (15%)
-[1508048233] wproc: NOTIFY job 255 from worker Core Worker 64879 is a non-check helper but exited with return code 127
-[1508048233] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508048233] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508048233] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508048233] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508050210] Auto-save of retention data completed successfully.
-[1508051833] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 31995.33 MB (85%) - free: 5552.34 MB (15%)
-[1508051833] wproc: NOTIFY job 328 from worker Core Worker 64880 is a non-check helper but exited with return code 127
-[1508051833] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508051833] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508051833] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508051833] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508053810] Auto-save of retention data completed successfully.
-[1508055433] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32005.20 MB (85%) - free: 5542.47 MB (15%)
-[1508055433] wproc: NOTIFY job 401 from worker Core Worker 64878 is a non-check helper but exited with return code 127
-[1508055433] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508055433] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508055433] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508055433] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508057410] Auto-save of retention data completed successfully.
-[1508059033] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32016.18 MB (85%) - free: 5531.49 MB (15%)
-[1508059033] wproc: NOTIFY job 475 from worker Core Worker 64880 is a non-check helper but exited with return code 127
-[1508059033] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508059033] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508059033] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508059033] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508061010] Auto-save of retention data completed successfully.
-[1508062633] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32225.21 MB (86%) - free: 5322.46 MB (14%)
-[1508062633] wproc: NOTIFY job 549 from worker Core Worker 64879 is a non-check helper but exited with return code 127
-[1508062633] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508062633] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508062633] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508062633] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508064610] Auto-save of retention data completed successfully.
-[1508066234] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32238.11 MB (86%) - free: 5309.56 MB (14%)
-[1508066234] wproc: NOTIFY job 622 from worker Core Worker 64878 is a non-check helper but exited with return code 127
-[1508066234] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508066234] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508066234] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508066234] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508068210] Auto-save of retention data completed successfully.
-[1508069834] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32242.86 MB (86%) - free: 5304.81 MB (14%)
-[1508069834] wproc: NOTIFY job 696 from worker Core Worker 64880 is a non-check helper but exited with return code 127
-[1508069834] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508069834] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508069834] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508069834] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508071810] Auto-save of retention data completed successfully.
-[1508073434] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32340.08 MB (86%) - free: 5207.59 MB (14%)
-[1508073434] wproc: NOTIFY job 769 from worker Core Worker 64878 is a non-check helper but exited with return code 127
-[1508073434] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
-[1508073434] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
-[1508073434] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
-[1508073434] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
-[1508073724] Caught SIGTERM, shutting down...
-[1508073724] Successfully shutdown... (PID=64874)
-[1508073724] Event broker module 'NERD' deinitialized successfully.
-[1508073867] Nagios 4.3.4 starting... (PID=8276)
-[1508073867] Local time is Sun Oct 15 09:24:27 EDT 2017
-[1508073867] LOG VERSION: 2.0
-[1508073867] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
-[1508073867] qh: core query handler registered
-[1508073867] nerd: Channel hostchecks registered successfully
-[1508073867] nerd: Channel servicechecks registered successfully
-[1508073867] nerd: Channel opathchecks registered successfully
-[1508073867] nerd: Fully initialized and ready to rock!
-[1508073867] wproc: Successfully registered manager as @wproc with query handler
-[1508073867] wproc: Registry request: name=Core Worker 8279;pid=8279
-[1508073867] wproc: Registry request: name=Core Worker 8280;pid=8280
-[1508073867] wproc: Registry request: name=Core Worker 8278;pid=8278
-[1508073867] wproc: Registry request: name=Core Worker 8281;pid=8281
-[1508073867] Successfully launched command file worker with pid 8287
-[1508073901] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;OMEGA;Uptime;1508073898
-[1508074085] Caught SIGTERM, shutting down...
-[1508074085] Successfully shutdown... (PID=8276)
-[1508074085] Event broker module 'NERD' deinitialized successfully.
-[1508074091] Nagios 4.3.4 starting... (PID=8464)
-[1508074091] Local time is Sun Oct 15 09:28:11 EDT 2017
-[1508074091] LOG VERSION: 2.0
-[1508074091] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
-[1508074091] qh: core query handler registered
-[1508074091] nerd: Channel hostchecks registered successfully
-[1508074091] nerd: Channel servicechecks registered successfully
-[1508074091] nerd: Channel opathchecks registered successfully
-[1508074091] nerd: Fully initialized and ready to rock!
-[1508074091] wproc: Successfully registered manager as @wproc with query handler
-[1508074091] wproc: Registry request: name=Core Worker 8468;pid=8468
-[1508074091] wproc: Registry request: name=Core Worker 8469;pid=8469
-[1508074091] wproc: Registry request: name=Core Worker 8470;pid=8470
-[1508074091] wproc: Registry request: name=Core Worker 8467;pid=8467
-[1508074091] Successfully launched command file worker with pid 8475
-[1508074425] Caught SIGTERM, shutting down...
-[1508074425] Successfully shutdown... (PID=8464)
-[1508074425] Event broker module 'NERD' deinitialized successfully.
-[1508074466] Nagios 4.3.4 starting... (PID=8767)
-[1508074466] Local time is Sun Oct 15 09:34:26 EDT 2017
-[1508074466] LOG VERSION: 2.0
-[1508074466] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
-[1508074466] qh: core query handler registered
-[1508074466] nerd: Channel hostchecks registered successfully
-[1508074466] nerd: Channel servicechecks registered successfully
-[1508074466] nerd: Channel opathchecks registered successfully
-[1508074466] nerd: Fully initialized and ready to rock!
-[1508074466] wproc: Successfully registered manager as @wproc with query handler
-[1508074466] wproc: Registry request: name=Core Worker 8771;pid=8771
-[1508074466] wproc: Registry request: name=Core Worker 8770;pid=8770
-[1508074466] wproc: Registry request: name=Core Worker 8772;pid=8772
-[1508074466] wproc: Registry request: name=Core Worker 8769;pid=8769
-[1508074466] Successfully launched command file worker with pid 8779
-[1508074536] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;OMEGA;Memory Usage;1508074534
-[1508074552] SERVICE ALERT: HYDRA-plex;V:\ Drive Space - Share From Topsite;UNKNOWN;SOFT;1;Free disk space : Invalid drive
-[1508074655] Caught SIGTERM, shutting down...
-[1508074655] Successfully shutdown... (PID=8767)
-[1508074655] Event broker module 'NERD' deinitialized successfully.
-[1508074657] Nagios 4.3.4 starting... (PID=9036)
-[1508074657] Local time is Sun Oct 15 09:37:37 EDT 2017
-[1508074657] LOG VERSION: 2.0
-[1508074657] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
-[1508074657] qh: core query handler registered
-[1508074657] nerd: Channel hostchecks registered successfully
-[1508074657] nerd: Channel servicechecks registered successfully
-[1508074657] nerd: Channel opathchecks registered successfully
-[1508074657] nerd: Fully initialized and ready to rock!
-[1508074657] wproc: Successfully registered manager as @wproc with query handler
-[1508074657] wproc: Registry request: name=Core Worker 9040;pid=9040
-[1508074657] wproc: Registry request: name=Core Worker 9041;pid=9041
-[1508074657] wproc: Registry request: name=Core Worker 9042;pid=9042
-[1508074657] wproc: Registry request: name=Core Worker 9039;pid=9039
-[1508074657] Successfully launched command file worker with pid 9048
-[1508074669] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA-plex;V:\ Drive Space - Share From Topsite;1508074668
-[1508074669] SERVICE ALERT: HYDRA-plex;V:\ Drive Space - Share From Topsite;UNKNOWN;SOFT;2;NSClient - ERROR: Invalid return from command: check_drivesize
-[1508074761] Caught SIGTERM, shutting down...
-[1508074761] Successfully shutdown... (PID=9036)
-[1508074761] Event broker module 'NERD' deinitialized successfully.
-[1508074765] Nagios 4.3.4 starting... (PID=9235)
-[1508074765] Local time is Sun Oct 15 09:39:25 EDT 2017
-[1508074765] LOG VERSION: 2.0
-[1508074765] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
-[1508074765] qh: core query handler registered
-[1508074765] nerd: Channel hostchecks registered successfully
-[1508074765] nerd: Channel servicechecks registered successfully
-[1508074765] nerd: Channel opathchecks registered successfully
-[1508074765] nerd: Fully initialized and ready to rock!
-[1508074765] wproc: Successfully registered manager as @wproc with query handler
-[1508074765] wproc: Registry request: name=Core Worker 9239;pid=9239
-[1508074765] wproc: Registry request: name=Core Worker 9240;pid=9240
-[1508074765] wproc: Registry request: name=Core Worker 9241;pid=9241
-[1508074765] wproc: Registry request: name=Core Worker 9238;pid=9238
-[1508074765] Successfully launched command file worker with pid 9246
+[1508299200] LOG ROTATION: DAILY
+[1508299200] LOG VERSION: 2.0
+[1508299200] CURRENT HOST STATE: HYDRA;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1508299200] CURRENT HOST STATE: HYDRA-plex;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.73 ms
+[1508299200] CURRENT HOST STATE: OMEGA;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.89 ms
+[1508299200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.10 ms
+[1508299200] CURRENT HOST STATE: rt-n66u;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.76 ms
+[1508299200] CURRENT HOST STATE: topsite;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1508299200] CURRENT SERVICE STATE: HYDRA;C:\ Drive Space;OK;HARD;1;c:\ - total: 156.14 Gb - used: 60.42 Gb (39%) - free 95.72 Gb (61%)
+[1508299200] CURRENT SERVICE STATE: HYDRA;CPU Load;OK;HARD;1;CPU Load 6% (5 min average)
+[1508299200] CURRENT SERVICE STATE: HYDRA;D:\ Drive Space;OK;HARD;1;d:\ - total: 1519.21 Gb - used: 368.88 Gb (24%) - free 1150.32 Gb (76%)
+[1508299200] CURRENT SERVICE STATE: HYDRA;HYDRA Hyper-V Virtual Machine Management;OK;HARD;1;vmms: Started
+[1508299200] CURRENT SERVICE STATE: HYDRA;Memory Usage;WARNING;HARD;3;Memory usage: total:37547.67 MB - used: 32691.00 MB (87%) - free: 4856.67 MB (13%)
+[1508299200] CURRENT SERVICE STATE: HYDRA;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.62 2016-09-14
+[1508299200] CURRENT SERVICE STATE: HYDRA;Uptime;OK;HARD;1;System Uptime - 68 day(s) 10 hour(s) 23 minute(s)
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;C:\ Drive Space;OK;HARD;1;c:\ - total: 599.46 Gb - used: 315.56 Gb (53%) - free 283.90 Gb (47%)
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;CPU Load;OK;HARD;1;CPU Load 33% (5 min average)
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;Memory Usage;OK;HARD;1;Memory usage: total:32767.83 MB - used: 4112.46 MB (13%) - free: 28655.37 MB (87%)
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.23 2016-04-05
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;Plex Media server;OK;HARD;1;Plex Media Server.exe: Running
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;Plex update service;OK;HARD;1;Plex Update Service: Started
+[1508299200] CURRENT SERVICE STATE: HYDRA-plex;Uptime;OK;HARD;1;System Uptime - 2 day(s) 6 hour(s) 5 minute(s)
+[1508299200] CURRENT SERVICE STATE: OMEGA;C:\ Drive Space;OK;HARD;1;c:\ - total: 292.45 Gb - used: 23.72 Gb (8%) - free 268.73 Gb (92%)
+[1508299200] CURRENT SERVICE STATE: OMEGA;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1508299200] CURRENT SERVICE STATE: OMEGA;D:\ Drive Space;OK;HARD;1;d:\ - total: 3246.73 Gb - used: 1191.09 Gb (37%) - free 2055.63 Gb (63%)
+[1508299200] CURRENT SERVICE STATE: OMEGA;Memory Usage;OK;HARD;1;Memory usage: total:27951.51 MB - used: 1425.08 MB (5%) - free: 26526.43 MB (95%)
+[1508299200] CURRENT SERVICE STATE: OMEGA;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.62 2016-09-14
+[1508299200] CURRENT SERVICE STATE: OMEGA;Uptime;OK;HARD;1;System Uptime - 1 day(s) 4 hour(s) 50 minute(s)
+[1508299200] CURRENT SERVICE STATE: OMEGA;UrBackup Server service;OK;HARD;1;UrBackupWinServer: Started
+[1508299200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+[1508299200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 4 users currently logged in
+[1508299200] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.001 second response time
+[1508299200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.11 ms
+[1508299200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 113176 MB (94.75% inode=96%):
+[1508299200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.2p2 Ubuntu-4ubuntu2.2 (protocol 2.0)
+[1508299200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2043 MB out of 2045 MB)
+[1508299200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 59 processes with STATE = RSZDT
+[1508299200] CURRENT SERVICE STATE: rt-n66u;Checking swap space alert;OK;HARD;1;SNMP OK - "Running out of swap space (0)"
+[1508299200] CURRENT SERVICE STATE: rt-n66u;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.62 ms
+[1508299200] CURRENT SERVICE STATE: rt-n66u;Received WAN Traffic;OK;HARD;1;SNMP OK - 1392255152
+[1508299200] CURRENT SERVICE STATE: rt-n66u;Sent WAN Traffic;OK;HARD;1;SNMP OK - 3450044958
+[1508299200] CURRENT SERVICE STATE: rt-n66u;UPTIME using plugin snmp;OK;HARD;1;SNMP uptime: 14 days, 4 hours, 36 minutes, 39 seconds : OK
+[1508299200] CURRENT SERVICE STATE: topsite;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.71 ms
+[1508299200] CURRENT SERVICE STATE: topsite;UPTIME using plugin snmp;OK;HARD;1;SNMP uptime: 15 days, 13 hours, 10 minutes, 23 seconds : OK
+[1508300639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32709.67 MB (87%) - free: 4838.00 MB (13%)
+[1508300639] wproc: NOTIFY job 2578 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508300639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508300639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508300639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508300639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508302095] Auto-save of retention data completed successfully.
+[1508304239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32706.77 MB (87%) - free: 4840.90 MB (13%)
+[1508304239] wproc: NOTIFY job 2666 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508304239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508304239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508304239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508304239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508305695] Auto-save of retention data completed successfully.
+[1508307839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32715.27 MB (87%) - free: 4832.40 MB (13%)
+[1508307839] wproc: NOTIFY job 2753 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508307839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508307839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508307839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508307839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508309295] Auto-save of retention data completed successfully.
+[1508311439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32797.98 MB (87%) - free: 4749.69 MB (13%)
+[1508311439] wproc: NOTIFY job 2840 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508311439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508311439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508311439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508311439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508312895] Auto-save of retention data completed successfully.
+[1508315039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32791.79 MB (87%) - free: 4755.88 MB (13%)
+[1508315039] wproc: NOTIFY job 2926 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508315039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508315039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508315039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508315039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508316495] Auto-save of retention data completed successfully.
+[1508318639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32794.94 MB (87%) - free: 4752.73 MB (13%)
+[1508318639] wproc: NOTIFY job 3013 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508318639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508318639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508318639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508318639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508320095] Auto-save of retention data completed successfully.
+[1508322239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32795.01 MB (87%) - free: 4752.66 MB (13%)
+[1508322239] wproc: NOTIFY job 3100 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508322239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508322239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508322239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508322239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508323695] Auto-save of retention data completed successfully.
+[1508325839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32797.98 MB (87%) - free: 4749.69 MB (13%)
+[1508325839] wproc: NOTIFY job 3188 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508325839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508325839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508325839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508327295] Auto-save of retention data completed successfully.
+[1508329439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32810.23 MB (87%) - free: 4737.44 MB (13%)
+[1508329439] wproc: NOTIFY job 3275 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508329439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508329439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508329439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508329439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508330895] Auto-save of retention data completed successfully.
+[1508333039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32811.37 MB (87%) - free: 4736.30 MB (13%)
+[1508333039] wproc: NOTIFY job 3362 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508333039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508333039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508333039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508333039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508334495] Auto-save of retention data completed successfully.
+[1508336639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32812.12 MB (87%) - free: 4735.55 MB (13%)
+[1508336639] wproc: NOTIFY job 3448 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508336639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508336639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508336639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508336639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508338095] Auto-save of retention data completed successfully.
+[1508340239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32785.26 MB (87%) - free: 4762.41 MB (13%)
+[1508340239] wproc: NOTIFY job 3535 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508340239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508340239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508340239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508340239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508341695] Auto-save of retention data completed successfully.
+[1508343839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32790.63 MB (87%) - free: 4757.04 MB (13%)
+[1508343839] wproc: NOTIFY job 3622 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508343839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508343839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508343839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508343839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508345295] Auto-save of retention data completed successfully.
+[1508347439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32794.66 MB (87%) - free: 4753.01 MB (13%)
+[1508347439] wproc: NOTIFY job 3710 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508347439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508347439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508347439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508347439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508348738] Caught SIGTERM, shutting down...
+[1508348738] Successfully shutdown... (PID=56438)
+[1508348738] Event broker module 'NERD' deinitialized successfully.
+[1508350245] Nagios 4.3.4 starting... (PID=33217)
+[1508350245] Local time is Wed Oct 18 14:10:45 EDT 2017
+[1508350245] LOG VERSION: 2.0
+[1508350245] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508350245] qh: core query handler registered
+[1508350245] nerd: Channel hostchecks registered successfully
+[1508350245] nerd: Channel servicechecks registered successfully
+[1508350245] nerd: Channel opathchecks registered successfully
+[1508350245] nerd: Fully initialized and ready to rock!
+[1508350245] wproc: Successfully registered manager as @wproc with query handler
+[1508350245] wproc: Registry request: name=Core Worker 33220;pid=33220
+[1508350245] wproc: Registry request: name=Core Worker 33221;pid=33221
+[1508350245] wproc: Registry request: name=Core Worker 33219;pid=33219
+[1508350245] wproc: Registry request: name=Core Worker 33222;pid=33222
+[1508350245] Successfully launched command file worker with pid 33229
+[1508350262] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508350259
+[1508350262] SERVICE ALERT: linuxplex;Disk IO Status;UNKNOWN;SOFT;1;Need device name, ex: sda
+[1508350382] SERVICE ALERT: linuxplex;Disk IO Status;UNKNOWN;SOFT;2;Need device name, ex: sda
+[1508350456] Caught SIGTERM, shutting down...
+[1508350456] Successfully shutdown... (PID=33217)
+[1508350456] Event broker module 'NERD' deinitialized successfully.
+[1508350459] Nagios 4.3.4 starting... (PID=33490)
+[1508350459] Local time is Wed Oct 18 14:14:19 EDT 2017
+[1508350459] LOG VERSION: 2.0
+[1508350459] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508350459] qh: core query handler registered
+[1508350459] nerd: Channel hostchecks registered successfully
+[1508350459] nerd: Channel servicechecks registered successfully
+[1508350459] nerd: Channel opathchecks registered successfully
+[1508350459] nerd: Fully initialized and ready to rock!
+[1508350459] wproc: Successfully registered manager as @wproc with query handler
+[1508350459] wproc: Registry request: name=Core Worker 33493;pid=33493
+[1508350459] wproc: Registry request: name=Core Worker 33494;pid=33494
+[1508350459] wproc: Registry request: name=Core Worker 33495;pid=33495
+[1508350459] wproc: Registry request: name=Core Worker 33492;pid=33492
+[1508350459] Successfully launched command file worker with pid 33502
+[1508350477] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508350476
+[1508350477] SERVICE ALERT: linuxplex;Disk IO Status;UNKNOWN;HARD;3;Need device name, ex: sda
+[1508350477] SERVICE NOTIFICATION: nagiosadmin;linuxplex;Disk IO Status;UNKNOWN;notify-service-by-email;Need device name, ex: sda
+[1508350477] wproc: NOTIFY job 1 from worker Core Worker 33493 is a non-check helper but exited with return code 127
+[1508350477] wproc:   host=linuxplex; service=Disk IO Status; contact=nagiosadmin
+[1508350477] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508350477] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508350477] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508350570] Caught SIGTERM, shutting down...
+[1508350570] Successfully shutdown... (PID=33490)
+[1508350570] Event broker module 'NERD' deinitialized successfully.
+[1508350573] Nagios 4.3.4 starting... (PID=33747)
+[1508350573] Local time is Wed Oct 18 14:16:13 EDT 2017
+[1508350573] LOG VERSION: 2.0
+[1508350573] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508350573] qh: core query handler registered
+[1508350573] nerd: Channel hostchecks registered successfully
+[1508350573] nerd: Channel servicechecks registered successfully
+[1508350573] nerd: Channel opathchecks registered successfully
+[1508350573] nerd: Fully initialized and ready to rock!
+[1508350573] wproc: Successfully registered manager as @wproc with query handler
+[1508350573] wproc: Registry request: name=Core Worker 33751;pid=33751
+[1508350573] wproc: Registry request: name=Core Worker 33752;pid=33752
+[1508350573] wproc: Registry request: name=Core Worker 33753;pid=33753
+[1508350573] wproc: Registry request: name=Core Worker 33750;pid=33750
+[1508350573] Successfully launched command file worker with pid 33758
+[1508350584] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508350583
+[1508350764] Caught SIGTERM, shutting down...
+[1508350764] Successfully shutdown... (PID=33747)
+[1508350764] Event broker module 'NERD' deinitialized successfully.
+[1508350766] Nagios 4.3.4 starting... (PID=34022)
+[1508350766] Local time is Wed Oct 18 14:19:26 EDT 2017
+[1508350766] LOG VERSION: 2.0
+[1508350766] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508350766] qh: core query handler registered
+[1508350766] nerd: Channel hostchecks registered successfully
+[1508350766] nerd: Channel servicechecks registered successfully
+[1508350766] nerd: Channel opathchecks registered successfully
+[1508350766] nerd: Fully initialized and ready to rock!
+[1508350766] wproc: Successfully registered manager as @wproc with query handler
+[1508350766] wproc: Registry request: name=Core Worker 34026;pid=34026
+[1508350766] wproc: Registry request: name=Core Worker 34027;pid=34027
+[1508350767] wproc: Registry request: name=Core Worker 34029;pid=34029
+[1508350767] wproc: Registry request: name=Core Worker 34028;pid=34028
+[1508350767] Successfully launched command file worker with pid 34033
+[1508350779] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508350778
+[1508351260] Caught SIGTERM, shutting down...
+[1508351260] Successfully shutdown... (PID=34022)
+[1508351260] Event broker module 'NERD' deinitialized successfully.
+[1508351264] Nagios 4.3.4 starting... (PID=34474)
+[1508351264] Local time is Wed Oct 18 14:27:44 EDT 2017
+[1508351264] LOG VERSION: 2.0
+[1508351264] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508351264] qh: core query handler registered
+[1508351264] nerd: Channel hostchecks registered successfully
+[1508351264] nerd: Channel servicechecks registered successfully
+[1508351264] nerd: Channel opathchecks registered successfully
+[1508351264] nerd: Fully initialized and ready to rock!
+[1508351264] wproc: Successfully registered manager as @wproc with query handler
+[1508351264] wproc: Registry request: name=Core Worker 34477;pid=34477
+[1508351264] wproc: Registry request: name=Core Worker 34476;pid=34476
+[1508351264] wproc: Registry request: name=Core Worker 34478;pid=34478
+[1508351264] wproc: Registry request: name=Core Worker 34479;pid=34479
+[1508351264] Successfully launched command file worker with pid 34486
+[1508351278] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508351277
+[1508351335] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32806.26 MB (87%) - free: 4741.41 MB (13%)
+[1508351335] wproc: NOTIFY job 2 from worker Core Worker 34477 is a non-check helper but exited with return code 127
+[1508351335] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508351335] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508351335] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508351335] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508351448] Caught SIGTERM, shutting down...
+[1508351448] Successfully shutdown... (PID=34474)
+[1508351448] Event broker module 'NERD' deinitialized successfully.
+[1508351451] Nagios 4.3.4 starting... (PID=34744)
+[1508351451] Local time is Wed Oct 18 14:30:51 EDT 2017
+[1508351451] LOG VERSION: 2.0
+[1508351451] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508351451] qh: core query handler registered
+[1508351451] nerd: Channel hostchecks registered successfully
+[1508351451] nerd: Channel servicechecks registered successfully
+[1508351451] nerd: Channel opathchecks registered successfully
+[1508351451] nerd: Fully initialized and ready to rock!
+[1508351451] wproc: Successfully registered manager as @wproc with query handler
+[1508351451] wproc: Registry request: name=Core Worker 34746;pid=34746
+[1508351451] wproc: Registry request: name=Core Worker 34748;pid=34748
+[1508351451] wproc: Registry request: name=Core Worker 34749;pid=34749
+[1508351451] wproc: Registry request: name=Core Worker 34747;pid=34747
+[1508351451] Successfully launched command file worker with pid 34755
+[1508351460] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508351459
+[1508351889] Caught SIGTERM, shutting down...
+[1508351889] Successfully shutdown... (PID=34744)
+[1508351889] Event broker module 'NERD' deinitialized successfully.
+[1508351892] Nagios 4.3.4 starting... (PID=35386)
+[1508351892] Local time is Wed Oct 18 14:38:12 EDT 2017
+[1508351892] LOG VERSION: 2.0
+[1508351892] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508351892] qh: core query handler registered
+[1508351892] nerd: Channel hostchecks registered successfully
+[1508351892] nerd: Channel servicechecks registered successfully
+[1508351892] nerd: Channel opathchecks registered successfully
+[1508351892] nerd: Fully initialized and ready to rock!
+[1508351892] wproc: Successfully registered manager as @wproc with query handler
+[1508351892] wproc: Registry request: name=Core Worker 35389;pid=35389
+[1508351892] wproc: Registry request: name=Core Worker 35390;pid=35390
+[1508351892] wproc: Registry request: name=Core Worker 35388;pid=35388
+[1508351892] wproc: Registry request: name=Core Worker 35391;pid=35391
+[1508351892] Successfully launched command file worker with pid 35397
+[1508351910] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508351908
+[1508351978] Caught SIGTERM, shutting down...
+[1508351978] Successfully shutdown... (PID=35386)
+[1508351978] Event broker module 'NERD' deinitialized successfully.
+[1508351980] Nagios 4.3.4 starting... (PID=35639)
+[1508351980] Local time is Wed Oct 18 14:39:40 EDT 2017
+[1508351980] LOG VERSION: 2.0
+[1508351980] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508351980] qh: core query handler registered
+[1508351980] nerd: Channel hostchecks registered successfully
+[1508351980] nerd: Channel servicechecks registered successfully
+[1508351980] nerd: Channel opathchecks registered successfully
+[1508351980] nerd: Fully initialized and ready to rock!
+[1508351980] wproc: Successfully registered manager as @wproc with query handler
+[1508351980] wproc: Registry request: name=Core Worker 35642;pid=35642
+[1508351980] wproc: Registry request: name=Core Worker 35643;pid=35643
+[1508351980] wproc: Registry request: name=Core Worker 35641;pid=35641
+[1508351981] wproc: Registry request: name=Core Worker 35644;pid=35644
+[1508351981] Successfully launched command file worker with pid 35650
+[1508351991] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508351990
+[1508352148] Caught SIGTERM, shutting down...
+[1508352148] Successfully shutdown... (PID=35639)
+[1508352148] Event broker module 'NERD' deinitialized successfully.
+[1508352150] Nagios 4.3.4 starting... (PID=36102)
+[1508352150] Local time is Wed Oct 18 14:42:30 EDT 2017
+[1508352150] LOG VERSION: 2.0
+[1508352150] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508352150] qh: core query handler registered
+[1508352150] nerd: Channel hostchecks registered successfully
+[1508352150] nerd: Channel servicechecks registered successfully
+[1508352150] nerd: Channel opathchecks registered successfully
+[1508352150] nerd: Fully initialized and ready to rock!
+[1508352150] wproc: Successfully registered manager as @wproc with query handler
+[1508352150] wproc: Registry request: name=Core Worker 36105;pid=36105
+[1508352150] wproc: Registry request: name=Core Worker 36106;pid=36106
+[1508352151] wproc: Registry request: name=Core Worker 36107;pid=36107
+[1508352151] wproc: Registry request: name=Core Worker 36104;pid=36104
+[1508352151] Successfully launched command file worker with pid 36113
+[1508352167] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508352166
+[1508352441] Caught SIGTERM, shutting down...
+[1508352441] Successfully shutdown... (PID=36102)
+[1508352441] Event broker module 'NERD' deinitialized successfully.
+[1508352443] Nagios 4.3.4 starting... (PID=36697)
+[1508352443] Local time is Wed Oct 18 14:47:23 EDT 2017
+[1508352443] LOG VERSION: 2.0
+[1508352443] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508352443] qh: core query handler registered
+[1508352443] nerd: Channel hostchecks registered successfully
+[1508352443] nerd: Channel servicechecks registered successfully
+[1508352443] nerd: Channel opathchecks registered successfully
+[1508352443] nerd: Fully initialized and ready to rock!
+[1508352443] wproc: Successfully registered manager as @wproc with query handler
+[1508352443] wproc: Registry request: name=Core Worker 36700;pid=36700
+[1508352443] wproc: Registry request: name=Core Worker 36699;pid=36699
+[1508352443] wproc: Registry request: name=Core Worker 36701;pid=36701
+[1508352443] wproc: Registry request: name=Core Worker 36702;pid=36702
+[1508352443] Successfully launched command file worker with pid 36709
+[1508352451] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508352450
+[1508352539] Caught SIGTERM, shutting down...
+[1508352539] Successfully shutdown... (PID=36697)
+[1508352539] Event broker module 'NERD' deinitialized successfully.
+[1508352541] Nagios 4.3.4 starting... (PID=36972)
+[1508352541] Local time is Wed Oct 18 14:49:01 EDT 2017
+[1508352541] LOG VERSION: 2.0
+[1508352541] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1508352541] qh: core query handler registered
+[1508352541] nerd: Channel hostchecks registered successfully
+[1508352541] nerd: Channel servicechecks registered successfully
+[1508352541] nerd: Channel opathchecks registered successfully
+[1508352541] nerd: Fully initialized and ready to rock!
+[1508352541] wproc: Successfully registered manager as @wproc with query handler
+[1508352541] wproc: Registry request: name=Core Worker 36974;pid=36974
+[1508352541] wproc: Registry request: name=Core Worker 36976;pid=36976
+[1508352541] wproc: Registry request: name=Core Worker 36977;pid=36977
+[1508352541] wproc: Registry request: name=Core Worker 36975;pid=36975
+[1508352541] Successfully launched command file worker with pid 36983
+[1508352552] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;linuxplex;Disk IO Status;1508352551
+[1508352552] SERVICE ALERT: linuxplex;Disk IO Status;OK;HARD;3;summary: 2 io/s, read 10120 sectors (13kB/s), write 15648 sectors (20kB/s), queue size 0 in 385 seconds
+[1508352552] SERVICE NOTIFICATION: nagiosadmin;linuxplex;Disk IO Status;OK;notify-service-by-email;summary: 2 io/s, read 10120 sectors (13kB/s), write 15648 sectors (20kB/s), queue size 0 in 385 seconds
+[1508352552] wproc: NOTIFY job 0 from worker Core Worker 36975 is a non-check helper but exited with return code 127
+[1508352552] wproc:   host=linuxplex; service=Disk IO Status; contact=nagiosadmin
+[1508352552] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508352552] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508352552] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe

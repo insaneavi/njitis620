@@ -1,0 +1,220 @@
+[1508212800] LOG ROTATION: DAILY
+[1508212800] LOG VERSION: 2.0
+[1508212800] CURRENT HOST STATE: HYDRA;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.73 ms
+[1508212800] CURRENT HOST STATE: HYDRA-plex;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.76 ms
+[1508212800] CURRENT HOST STATE: OMEGA;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.87 ms
+[1508212800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+[1508212800] CURRENT HOST STATE: rt-n66u;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.66 ms
+[1508212800] CURRENT HOST STATE: topsite;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.67 ms
+[1508212800] CURRENT SERVICE STATE: HYDRA;C:\ Drive Space;OK;HARD;1;c:\ - total: 156.14 Gb - used: 60.42 Gb (39%) - free 95.72 Gb (61%)
+[1508212800] CURRENT SERVICE STATE: HYDRA;CPU Load;OK;HARD;1;CPU Load 7% (5 min average)
+[1508212800] CURRENT SERVICE STATE: HYDRA;D:\ Drive Space;OK;HARD;1;d:\ - total: 1519.21 Gb - used: 368.30 Gb (24%) - free 1150.90 Gb (76%)
+[1508212800] CURRENT SERVICE STATE: HYDRA;HYDRA Hyper-V Virtual Machine Management;OK;HARD;1;vmms: Started
+[1508212800] CURRENT SERVICE STATE: HYDRA;Memory Usage;WARNING;HARD;3;Memory usage: total:37547.67 MB - used: 32639.60 MB (87%) - free: 4908.07 MB (13%)
+[1508212800] CURRENT SERVICE STATE: HYDRA;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.62 2016-09-14
+[1508212800] CURRENT SERVICE STATE: HYDRA;Uptime;OK;HARD;1;System Uptime - 67 day(s) 10 hour(s) 23 minute(s)
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;C:\ Drive Space;OK;HARD;1;c:\ - total: 599.46 Gb - used: 313.98 Gb (52%) - free 285.48 Gb (48%)
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;CPU Load;OK;HARD;1;CPU Load 53% (5 min average)
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;Memory Usage;OK;HARD;1;Memory usage: total:32767.83 MB - used: 4586.07 MB (14%) - free: 28181.76 MB (86%)
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;NSClient++ Version;OK;HARD;1;NSClient++ 0.4.4.23 2016-04-05
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;Plex Media server;OK;HARD;1;Plex Media Server.exe: Running
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;Plex update service;OK;HARD;1;Plex Update Service: Started
+[1508212800] CURRENT SERVICE STATE: HYDRA-plex;Uptime;OK;HARD;1;System Uptime - 1 day(s) 6 hour(s) 5 minute(s)
+[1508212800] CURRENT SERVICE STATE: OMEGA;C:\ Drive Space;OK;HARD;1;c:\ - total: 292.45 Gb - used: 23.67 Gb (8%) - free 268.78 Gb (92%)
+[1508212800] CURRENT SERVICE STATE: OMEGA;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1508212800] CURRENT SERVICE STATE: OMEGA;D:\ Drive Space;OK;HARD;1;d:\ - total: 3246.73 Gb - used: 1190.15 Gb (37%) - free 2056.58 Gb (63%)
+[1508212800] CURRENT SERVICE STATE: OMEGA;Memory Usage;OK;HARD;1;Memory usage: total:27951.51 MB - used: 1252.08 MB (4%) - free: 26699.43 MB (96%)
+[1508212800] CURRENT SERVICE STATE: OMEGA;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.0.62 2016-09-14
+[1508212800] CURRENT SERVICE STATE: OMEGA;Uptime;OK;HARD;1;System Uptime - 0 day(s) 4 hour(s) 50 minute(s)
+[1508212800] CURRENT SERVICE STATE: OMEGA;UrBackup Server service;OK;HARD;1;UrBackupWinServer: Started
+[1508212800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.04, 0.03, 0.00
+[1508212800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 4 users currently logged in
+[1508212800] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.001 second response time
+[1508212800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.10 ms
+[1508212800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 113178 MB (94.75% inode=96%):
+[1508212800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.2p2 Ubuntu-4ubuntu2.2 (protocol 2.0)
+[1508212800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2045 MB out of 2045 MB)
+[1508212800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 57 processes with STATE = RSZDT
+[1508212800] CURRENT SERVICE STATE: rt-n66u;Checking swap space alert;OK;HARD;1;SNMP OK - "Running out of swap space (0)"
+[1508212800] CURRENT SERVICE STATE: rt-n66u;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.94 ms
+[1508212800] CURRENT SERVICE STATE: rt-n66u;Received WAN Traffic;OK;HARD;1;SNMP OK - 2092403683
+[1508212800] CURRENT SERVICE STATE: rt-n66u;Sent WAN Traffic;OK;HARD;1;SNMP OK - 189003871
+[1508212800] CURRENT SERVICE STATE: rt-n66u;UPTIME using plugin snmp;OK;HARD;1;SNMP uptime: 13 days, 4 hours, 36 minutes, 42 seconds : OK
+[1508212800] CURRENT SERVICE STATE: topsite;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.44 ms
+[1508212800] CURRENT SERVICE STATE: topsite;UPTIME using plugin snmp;OK;HARD;1;SNMP uptime: 14 days, 13 hours, 10 minutes, 24 seconds : OK
+[1508214239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32640.53 MB (87%) - free: 4907.14 MB (13%)
+[1508214239] wproc: NOTIFY job 489 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508214239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508214239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508214239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508214239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508215695] Auto-save of retention data completed successfully.
+[1508217839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32643.79 MB (87%) - free: 4903.88 MB (13%)
+[1508217839] wproc: NOTIFY job 576 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508217839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508217839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508217839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508217839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508219295] Auto-save of retention data completed successfully.
+[1508221439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32655.83 MB (87%) - free: 4891.84 MB (13%)
+[1508221439] wproc: NOTIFY job 663 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508221439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508221439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508221439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508221439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508222895] Auto-save of retention data completed successfully.
+[1508225039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32662.69 MB (87%) - free: 4884.98 MB (13%)
+[1508225039] wproc: NOTIFY job 750 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508225039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508225039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508225039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508225039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508226495] Auto-save of retention data completed successfully.
+[1508228639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32665.35 MB (87%) - free: 4882.32 MB (13%)
+[1508228639] wproc: NOTIFY job 837 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508228639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508228639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508228639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508228639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508230095] Auto-save of retention data completed successfully.
+[1508232239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32660.65 MB (87%) - free: 4887.02 MB (13%)
+[1508232239] wproc: NOTIFY job 924 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508232239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508232239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508232239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508232239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508233695] Auto-save of retention data completed successfully.
+[1508235839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32665.58 MB (87%) - free: 4882.09 MB (13%)
+[1508235839] wproc: NOTIFY job 1011 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508235839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508235839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508235839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508235839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508237295] Auto-save of retention data completed successfully.
+[1508239439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32679.32 MB (87%) - free: 4868.35 MB (13%)
+[1508239439] wproc: NOTIFY job 1098 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508239439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508239439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508239439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508239439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508240895] Auto-save of retention data completed successfully.
+[1508243039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32686.05 MB (87%) - free: 4861.62 MB (13%)
+[1508243039] wproc: NOTIFY job 1185 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508243039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508243039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508243039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508243039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508244495] Auto-save of retention data completed successfully.
+[1508246639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32712.69 MB (87%) - free: 4834.98 MB (13%)
+[1508246639] wproc: NOTIFY job 1272 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508246639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508246639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508246639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508246639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508248095] Auto-save of retention data completed successfully.
+[1508250239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32718.78 MB (87%) - free: 4828.89 MB (13%)
+[1508250239] wproc: NOTIFY job 1359 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508250239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508250239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508250239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508250239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508251695] Auto-save of retention data completed successfully.
+[1508253839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32719.50 MB (87%) - free: 4828.17 MB (13%)
+[1508253839] wproc: NOTIFY job 1446 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508253839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508253839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508253839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508253839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508255295] Auto-save of retention data completed successfully.
+[1508257439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32716.49 MB (87%) - free: 4831.18 MB (13%)
+[1508257439] wproc: NOTIFY job 1533 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508257439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508257439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508257439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508257439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508258895] Auto-save of retention data completed successfully.
+[1508261039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32730.90 MB (87%) - free: 4816.77 MB (13%)
+[1508261039] wproc: NOTIFY job 1620 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508261039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508261039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508261039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508261039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508262411] SERVICE ALERT: HYDRA-plex;CPU Load;WARNING;SOFT;1;CPU Load 85% (5 min average)
+[1508262495] Auto-save of retention data completed successfully.
+[1508262531] SERVICE ALERT: HYDRA-plex;CPU Load;OK;SOFT;2;CPU Load 41% (5 min average)
+[1508264639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32724.81 MB (87%) - free: 4822.86 MB (13%)
+[1508264639] wproc: NOTIFY job 1708 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508264639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508264639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508264639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508264639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508266095] Auto-save of retention data completed successfully.
+[1508268239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32722.25 MB (87%) - free: 4825.42 MB (13%)
+[1508268239] wproc: NOTIFY job 1795 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508268239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508268239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508268239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508268239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508269695] Auto-save of retention data completed successfully.
+[1508271839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32731.86 MB (87%) - free: 4815.81 MB (13%)
+[1508271839] wproc: NOTIFY job 1882 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508271839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508271839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508271839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508271839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508273295] Auto-save of retention data completed successfully.
+[1508275439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32730.67 MB (87%) - free: 4817.00 MB (13%)
+[1508275439] wproc: NOTIFY job 1968 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508275439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508275439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508275439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508275439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508276895] Auto-save of retention data completed successfully.
+[1508279039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32729.30 MB (87%) - free: 4818.37 MB (13%)
+[1508279039] wproc: NOTIFY job 2055 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508279039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508279039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508279039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508279039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508280495] Auto-save of retention data completed successfully.
+[1508282639] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32734.76 MB (87%) - free: 4812.91 MB (13%)
+[1508282639] wproc: NOTIFY job 2143 from worker Core Worker 56441 is a non-check helper but exited with return code 127
+[1508282639] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508282639] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508282639] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508282639] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508284095] Auto-save of retention data completed successfully.
+[1508284419] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA;Memory Usage;1508284414
+[1508284439] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;HYDRA;Memory Usage;1508284437
+[1508286239] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32697.75 MB (87%) - free: 4849.92 MB (13%)
+[1508286239] wproc: NOTIFY job 2230 from worker Core Worker 56440 is a non-check helper but exited with return code 127
+[1508286239] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508286239] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508286239] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508286239] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508287407] SERVICE ALERT: rt-n66u;Checking swap space alert;CRITICAL;SOFT;1;CRITICAL - Plugin timed out while executing system call
+[1508287516] SERVICE ALERT: rt-n66u;Checking swap space alert;OK;SOFT;2;SNMP OK - "Running out of swap space (0)"
+[1508287695] Auto-save of retention data completed successfully.
+[1508288931] SERVICE ALERT: HYDRA-plex;CPU Load;WARNING;SOFT;1;CPU Load 84% (5 min average)
+[1508289051] SERVICE ALERT: HYDRA-plex;CPU Load;OK;SOFT;2;CPU Load 46% (5 min average)
+[1508289839] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32689.91 MB (87%) - free: 4857.76 MB (13%)
+[1508289839] wproc: NOTIFY job 2317 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508289839] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508289839] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508289839] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508289839] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508291295] Auto-save of retention data completed successfully.
+[1508293439] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32706.41 MB (87%) - free: 4841.26 MB (13%)
+[1508293439] wproc: NOTIFY job 2404 from worker Core Worker 56443 is a non-check helper but exited with return code 127
+[1508293439] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508293439] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508293439] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508293439] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508294895] Auto-save of retention data completed successfully.
+[1508297039] SERVICE NOTIFICATION: nagiosadmin;HYDRA;Memory Usage;WARNING;notify-service-by-email;Memory usage: total:37547.67 MB - used: 32699.23 MB (87%) - free: 4848.44 MB (13%)
+[1508297039] wproc: NOTIFY job 2491 from worker Core Worker 56442 is a non-check helper but exited with return code 127
+[1508297039] wproc:   host=HYDRA; service=Memory Usage; contact=nagiosadmin
+[1508297039] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1508297039] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1508297039] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1508298495] Auto-save of retention data completed successfully.

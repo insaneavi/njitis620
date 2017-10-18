@@ -1,10 +1,10 @@
 #!/usr/bin/perl -w
 #
-# check_ifstatus.pl - monitoring plugin
+# check_ifstatus.pl - nagios plugin 
 # 
 #
 # Copyright (C) 2000 Christoph Kron
-# Modified 5/2002 to conform to updated Monitoring Plugins Guidelines (S. Ghosh)
+# Modified 5/2002 to conform to updated Nagios Plugin Guidelines (S. Ghosh)
 #  Added -x option (4/2003)
 #  Added -u option (4/2003)
 #  Added -M option (10/2003)
@@ -23,10 +23,10 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
-# Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+# MA 02110-1301, USA
 #
-#
-# Report bugs to: ck@zet.net, help@monitoring-plugins.org
+# Report bugs to: ck@zet.net, nagiosplug-help@lists.sf.net
 # 
 # 11.01.2000 Version 1.0
 #
@@ -35,7 +35,7 @@ use POSIX;
 use strict;
 use FindBin;
 use lib "$FindBin::Bin";
-use lib '/usr/lib/nagios/plugins';
+use lib '/usr/local/nagios/libexec';
 use utils qw($TIMEOUT %ERRORS &print_revision &support);
 
 use Net::SNMP;
@@ -107,7 +107,7 @@ my %session_opts;
 
 
 
-# Just in case of problems, let's not hang the monitoring system
+# Just in case of problems, let's not hang Nagios
 $SIG{'ALRM'} = sub {
      print ("ERROR: No snmp response from $hostname (alarm timeout)\n");
      exit $ERRORS{"UNKNOWN"};
@@ -248,9 +248,9 @@ sub print_usage() {
 }
 
 sub print_help() {
-	print_revision($PROGNAME, '2.1.2');
+	print_revision($PROGNAME, '2.2.1.git');
 	print_usage();
-	printf "check_ifstatus plugin for monitoring operational \n";
+	printf "check_ifstatus plugin for Nagios monitors operational \n";
 	printf "status of each network interface on the target host\n";
 	printf "\nUsage:\n";
 	printf "   -H (--hostname)   Hostname to query - (required)\n";
@@ -285,7 +285,7 @@ sub print_help() {
 	printf "   -t (--timeout)    seconds before the plugin times out (default=$TIMEOUT)\n";
 	printf "   -V (--version)    Plugin version\n";
 	printf "   -h (--help)       usage help \n\n";
-	print_revision($PROGNAME, '2.1.2');
+	print_revision($PROGNAME, '2.2.1.git');
 	
 }
 
@@ -318,7 +318,7 @@ sub process_arguments() {
 	}
 
 	if ($opt_V) {
-		print_revision($PROGNAME,'2.1.2');
+		print_revision($PROGNAME,'2.2.1.git');
 		exit $ERRORS{'OK'};
 	}
 

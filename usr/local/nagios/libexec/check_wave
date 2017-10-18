@@ -5,7 +5,7 @@
 use strict;
 use FindBin;
 use lib "$FindBin::Bin";
-use lib '/usr/lib/nagios/plugins';
+use lib '/usr/local/nagios/libexec';
 use utils qw($TIMEOUT %ERRORS &print_revision &support);
 use vars qw($PROGNAME);
 use Getopt::Long;
@@ -31,7 +31,7 @@ GetOptions
 	 "H=s" => \$opt_H, "hostname=s" => \$opt_H);
 
 if ($opt_V) {
-	print_revision($PROGNAME,'2.1.2'); #'
+	print_revision($PROGNAME,'2.2.1.git'); #'
 	exit $ERRORS{'OK'};
 }
 
@@ -113,7 +113,7 @@ sub print_usage () {
 }
 
 sub print_help () {
-	print_revision($PROGNAME,'2.1.2');
+	print_revision($PROGNAME,'2.2.1.git');
 	print "Copyright (c) 2000 Jeffery Blank/Karl DeBisschop\n";
 	print "\n";
 	print_usage();

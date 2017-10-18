@@ -20,22 +20,23 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
-# Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301
-# USA
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+# MA 02110-1301, USA 
 #
 ############################################################################
 
 use POSIX;
 use strict;
 use Getopt::Long;
-use vars qw($opt_V $opt_h $opt_v $verbose $PROGNAME $opt_w $opt_c $opt_t
+use vars qw($opt_V $opt_h $opt_v $verbose $PROGNAME $opt_w $opt_c $opt_t $opt_s
 					$opt_M $mailq $status $state $msg $msg_q $msg_p $opt_W $opt_C $mailq @lines
 					%srcdomains %dstdomains);
 use FindBin;
 use lib "$FindBin::Bin";
-use lib '/usr/lib/nagios/plugins';
+use lib '/usr/local/nagios/libexec';
 use utils qw(%ERRORS &print_revision &support &usage );
 
+my ($sudo);
 
 sub print_help ();
 sub print_usage ();
@@ -57,6 +58,19 @@ if ($status){
 	exit $ERRORS{"UNKNOWN"};
 }
 
+if ($opt_s) {
+	if ($utils::PATH_TO_SUDO ne "") {
+		if (-x $utils::PATH_TO_SUDO) {
+			$sudo = $utils::PATH_TO_SUDO;
+		} else {
+			print "ERROR: Cannot execute sudo\n";
+			exit $ERRORS{'UNKNOWN'};
+		}
+	}
+} else {
+	$sudo = "";
+}
+
 $SIG{'ALRM'} = sub {
 	print ("ERROR: timed out waiting for $utils::PATH_TO_MAILQ \n");
 	exit $ERRORS{"WARNING"};
@@ -69,7 +83,7 @@ if ($mailq eq "sendmail") {
 
 	## open mailq 
 	if ( defined $utils::PATH_TO_MAILQ && -x $utils::PATH_TO_MAILQ ) {
-		if (! open (MAILQ, "$utils::PATH_TO_MAILQ | " ) ) {
+		if (! open (MAILQ, "$sudo $utils::PATH_TO_MAILQ | " ) ) {
 			print "ERROR: could not open $utils::PATH_TO_MAILQ \n";
 			exit $ERRORS{'UNKNOWN'};
 		}
@@ -297,26 +311,31 @@ if ($mailq eq "sendmail") {
 elsif ( $mailq eq "postfix" ) {
 
      ## open mailq
-        if ( defined $utils::PATH_TO_MAILQ && -x $utils::PATH_TO_MAILQ ) {
-                if (! open (MAILQ, "$utils::PATH_TO_MAILQ | " ) ) {
-                        print "ERROR: could not open $utils::PATH_TO_MAILQ \n";
-                        exit $ERRORS{'UNKNOWN'};
-                }
-        }elsif( defined $utils::PATH_TO_MAILQ){
-                unless (-x $utils::PATH_TO_MAILQ) {
-                        print "ERROR: $utils::PATH_TO_MAILQ is not executable by (uid $>:gid($)))\n";
-                        exit $ERRORS{'UNKNOWN'};
-                }
-        } else {
-                print "ERROR: \$utils::PATH_TO_MAILQ is not defined\n";
-                exit $ERRORS{'UNKNOWN'};
-        }
+	if ( defined $utils::PATH_TO_MAILQ ) {
+		if (-x $utils::PATH_TO_MAILQ) {
+			if (! open (MAILQ, "$utils::PATH_TO_MAILQ | ")) {
+				print "ERROR: $utils::PATH_TO_MAILQ returned an error\n";
+				exit $ERRORS{'UNKNOWN'};
+			}
+		}
+		else {
+			if ( $sudo ne "" ) {
+				if (! open (MAILQ, "$sudo $utils::PATH_TO_MAILQ | " ) ) {
+					print "ERROR: $utils::PATH_TO_MAILQ is not executable with sudo by (uid $>:gid($)))\n";
+					exit $ERRORS{'UNKNOWN'};
+				}
+			} else {
+				print "ERROR: $utils::PATH_TO_MAILQ is not executable by (uid $>:gid($))) and sudo is not set in utils.pm\n";
+				exit $ERRORS{'UNKNOWN'};
+			}
+		}
+	} else {
+		print "ERROR: \$utils::PATH_TO_MAILQ is not defined in utils.pm\n";
+		exit $ERRORS{'UNKNOWN'};
+	}
 
 
-        @lines = reverse <MAILQ>;
-
-        # close qmail-qstat
-        close MAILQ;
+	@lines = reverse <MAILQ>;
 
         if ( $? ) {
 		print "CRITICAL: Error code ".($?>>8)." returned from $utils::PATH_TO_MAILQ",$/;
@@ -380,7 +399,7 @@ elsif ( $mailq eq "qmail" ) {
 
 	# open qmail-qstat 
 	if ( defined $utils::PATH_TO_QMAIL_QSTAT && -x $utils::PATH_TO_QMAIL_QSTAT ) {
-		if (! open (MAILQ, "$utils::PATH_TO_QMAIL_QSTAT | " ) ) {
+		if (! open (MAILQ, "$sudo $utils::PATH_TO_QMAIL_QSTAT | " ) ) {
 			print "ERROR: could not open $utils::PATH_TO_QMAIL_QSTAT \n";
 			exit $ERRORS{'UNKNOWN'};
 		}
@@ -462,7 +481,7 @@ elsif ( $mailq eq "qmail" ) {
 elsif ( $mailq eq "exim" ) {
 	## open mailq 
 	if ( defined $utils::PATH_TO_MAILQ && -x $utils::PATH_TO_MAILQ ) {
-		if (! open (MAILQ, "$utils::PATH_TO_MAILQ | " ) ) {
+		if (! open (MAILQ, "$sudo $utils::PATH_TO_MAILQ | " ) ) {
 			print "ERROR: could not open $utils::PATH_TO_MAILQ \n";
 			exit $ERRORS{'UNKNOWN'};
 		}
@@ -505,7 +524,7 @@ elsif ( $mailq eq "exim" ) {
 elsif ( $mailq eq "nullmailer" ) {
 	## open mailq
 	if ( defined $utils::PATH_TO_MAILQ && -x $utils::PATH_TO_MAILQ ) {
-		if (! open (MAILQ, "$utils::PATH_TO_MAILQ | " ) ) {
+		if (! open (MAILQ, "$sudo $utils::PATH_TO_MAILQ | " ) ) {
 			print "ERROR: could not open $utils::PATH_TO_MAILQ \n";
 			exit $ERRORS{'UNKNOWN'};
 		}
@@ -522,7 +541,7 @@ elsif ( $mailq eq "nullmailer" ) {
 	while (<MAILQ>) {
 	    #2006-06-22 16:00:00  282 bytes
 
-	    if (/^[1-9][0-9]*-[01][0-9]-[0-3][0-9]\s[0-2][0-9]\:[0-2][0-9]\:[0-2][0-9]\s{2}[0-9]+\sbytes$/) {
+	    if (/^[1-9][0-9]*-[01][0-9]-[0-3][0-9]\s[0-2][0-9]\:[0-2][0-9]\:[0-2][0-9]\s{1,2}[0-9]+\sbytes$/) {
 		$msg_q++ ;
 	    }
 	}
@@ -556,11 +575,12 @@ sub process_arguments(){
 		 "M:s" => \$opt_M, "mailserver:s" => \$opt_M, # mailserver (default	sendmail)
 		 "w=i" => \$opt_w, "warning=i"  => \$opt_w,   # warning if above this number
 		 "c=i" => \$opt_c, "critical=i" => \$opt_c,	  # critical if above this number
-		 "t=i" => \$opt_t, "timeout=i"  => \$opt_t 
+		 "t=i" => \$opt_t, "timeout=i"  => \$opt_t,
+		 "s"   => \$opt_s, "sudo"       => \$opt_s
 		 );
 
 	if ($opt_V) {
-		print_revision($PROGNAME,'2.1.2');
+		print_revision($PROGNAME,'2.2.1.git');
 		exit $ERRORS{'OK'};
 	}
 
@@ -637,11 +657,11 @@ sub process_arguments(){
 }
 
 sub print_usage () {
-	print "Usage: $PROGNAME -w <warn> -c <crit> [-W <warn>] [-C <crit>] [-M <MTA>] [-t <timeout>] [-v verbose]\n";
+	print "Usage: $PROGNAME -w <warn> -c <crit> [-W <warn>] [-C <crit>] [-M <MTA>] [-t <timeout>] [-s] [-v]\n";
 }
 
 sub print_help () {
-	print_revision($PROGNAME,'2.1.2');
+	print_revision($PROGNAME,'2.2.1.git');
 	print "Copyright (c) 2002 Subhendu Ghosh/Carlos Canau/Benjamin Schmid\n";
 	print "\n";
 	print_usage();

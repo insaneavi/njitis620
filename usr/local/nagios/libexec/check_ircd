@@ -16,6 +16,8 @@
 # -----------------------------------------------------------------------------
 # Copyright 1999 (c) Richard Mayhew
 #
+# Credits go to Ethan Galstad for coding Nagios
+#
 # If any changes are made to this script, please mail me a copy of the
 # changes :)
 #
@@ -51,7 +53,7 @@ use vars qw($opt_V $opt_h $opt_t $opt_p $opt_H $opt_w $opt_c $verbose);
 use vars qw($PROGNAME);
 use FindBin;
 use lib "$FindBin::Bin";
-use lib '/usr/lib/nagios/plugins';
+use lib '/usr/local/nagios/libexec';
 use utils qw($TIMEOUT %ERRORS &print_revision &support &usage);
 
 # ----------------------------------------------------[ Function Prototypes ]--
@@ -118,10 +120,10 @@ sub print_usage () {
 
 sub print_help ()
 {
-	print_revision($PROGNAME,'2.1.2');
+	print_revision($PROGNAME,'2.2.1.git');
 	print "Copyright (c) 2000 Richard Mayhew/Karl DeBisschop
 
-Perl Check IRCD plugin for monitoring
+Perl Check IRCD plugin for Nagios
 
 ";
 	print_usage();
@@ -181,7 +183,7 @@ MAIN:
 		"H=s" => \$opt_H,  "hostname=s" => \$opt_H);
 
 	if ($opt_V) {
-		print_revision($PROGNAME,'2.1.2');
+		print_revision($PROGNAME,'2.2.1.git');
 		exit $ERRORS{'OK'};
 	}
 
@@ -205,7 +207,7 @@ MAIN:
 
 	if ($opt_t && $opt_t =~ /^([0-9]+)$/) { $TIMEOUT = $1; }
 
-	# Just in case of problems, let's not hang the monitoring system
+	# Just in case of problems, let's not hang Nagios
 	$SIG{'ALRM'} = sub {
 		print "Somthing is Taking a Long Time, Increase Your TIMEOUT (Currently Set At $TIMEOUT Seconds)\n";
 		exit $ERRORS{"UNKNOWN"};

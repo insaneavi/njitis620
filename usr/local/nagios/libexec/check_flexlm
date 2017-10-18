@@ -9,7 +9,7 @@
 # Check and interpret the output of lmstat
 # and create returncodes and output.
 #
-# Contrary to most other plugins, this script takes
+# Contrary to the nagios concept, this script takes
 # a file, not a hostname as an argument and returns
 # the status of hosts and services described in that
 # file. Use these hosts.cfg entries as an example
@@ -37,7 +37,7 @@ use Getopt::Long;
 use vars qw($opt_V $opt_h $opt_F $opt_t $verbose $PROGNAME);
 use FindBin;
 use lib "$FindBin::Bin";
-use lib '/usr/lib/nagios/plugins';
+use lib '/usr/local/nagios/libexec';
 use utils qw(%ERRORS &print_revision &support &usage);
 
 $PROGNAME="check_flexlm";
@@ -58,7 +58,7 @@ GetOptions
 	 "t=i" => \$opt_t, "timeout=i"  => \$opt_t);
 
 if ($opt_V) {
-	print_revision($PROGNAME,'2.1.2');
+	print_revision($PROGNAME,'2.2.1.git');
 	exit $ERRORS{'OK'};
 }
 
@@ -70,11 +70,14 @@ unless (defined $opt_t) {
 if ($opt_h) {print_help(); exit $ERRORS{'OK'};}
 
 unless (defined $opt_F) {
-	print "Missing license.dat file\n";
-	print_usage();
-	exit $ERRORS{'UNKNOWN'};
+	$opt_F = $ENV{'LM_LICENSE_FILE'};
+	unless (defined $opt_F) {
+		print "Missing license.dat file\n";
+		print_usage();
+		exit $ERRORS{'UNKNOWN'};
+	}
 }
-# Just in case of problems, let's not hang the monitoring system
+# Just in case of problems, let's not hang Nagios
 $SIG{'ALRM'} = sub {
 	print "Timeout: No Answer from Client\n";
 	exit $ERRORS{'UNKNOWN'};
@@ -218,7 +221,7 @@ sub print_usage () {
 }
 
 sub print_help () {
-	print_revision($PROGNAME,'2.1.2');
+	print_revision($PROGNAME,'2.2.1.git');
 	print "Copyright (c) 2000 Ernst-Dieter Martin/Karl DeBisschop
 
 Check available flexlm license managers
@@ -227,7 +230,7 @@ Check available flexlm license managers
 	print_usage();
 	print "
 -F, --filename=FILE
-   Name of license file (usually \"license.dat\")
+   Name of license file (like \"/usr/local/flexlm/licenses/license.dat\")
 -v, --verbose
    Print some extra debugging information (not advised for normal operation)
 -t, --timeout

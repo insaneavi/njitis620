@@ -3,7 +3,7 @@
 #
 # check_disk.pl <host> <share> <user> <pass> [warn] [critical] [port]
 #
-# Monitoring host script to get the disk usage from a SMB share
+# Nagios host script to get the disk usage from a SMB share
 #
 # Changes and Modifications
 # =========================
@@ -22,11 +22,11 @@ require 5.004;
 use POSIX;
 use strict;
 use Getopt::Long;
-use vars qw($opt_P $opt_V $opt_h $opt_H $opt_s $opt_W $opt_u $opt_p $opt_w $opt_c $opt_a $verbose);
+use vars qw($opt_P $opt_V $opt_h $opt_H $opt_k $opt_s $opt_W $opt_u $opt_p $opt_w $opt_c $opt_a $verbose);
 use vars qw($PROGNAME);
 use FindBin;
 use lib "$FindBin::Bin";
-use lib '/usr/lib/nagios/plugins';
+use lib '/usr/local/nagios/libexec';
 use utils qw($TIMEOUT %ERRORS &print_revision &support &usage);
 
 sub print_help ();
@@ -44,6 +44,7 @@ GetOptions
 	 "P=s" => \$opt_P, "port=s"     => \$opt_P,
 	 "V"   => \$opt_V, "version"    => \$opt_V,
 	 "h"   => \$opt_h, "help"       => \$opt_h,
+	 "k"   => \$opt_k, "kerberos"   => \$opt_k,
 	 "w=s" => \$opt_w, "warning=s"  => \$opt_w,
 	 "c=s" => \$opt_c, "critical=s" => \$opt_c,
 	 "p=s" => \$opt_p, "password=s" => \$opt_p,
@@ -54,7 +55,7 @@ GetOptions
 	 "a=s" => \$opt_a, "address=s" => \$opt_a);
 
 if ($opt_V) {
-	print_revision($PROGNAME,'2.1.2'); #'
+	print_revision($PROGNAME,'2.2.1.git'); #'
 	exit $ERRORS{'OK'};
 }
 
@@ -173,7 +174,7 @@ my $res = undef;
 my $perfdata = "";
 my @lines = undef;
 
-# Just in case of problems, let's not hang the monitoring system
+# Just in case of problems, let's not hang Nagios
 $SIG{'ALRM'} = sub { 
 	print "No Answer from Client\n";
 	exit $ERRORS{"UNKNOWN"};
@@ -189,6 +190,7 @@ my @cmd = (
 	defined($workgroup) ? ("-W", $workgroup) : (),
 	defined($address) ? ("-I", $address) : (),
 	defined($opt_P) ? ("-p", $opt_P) : (),
+	defined($opt_k) ? ("-k") : (),
 	"-c", "du"
 );
 
@@ -292,10 +294,10 @@ sub print_usage () {
 }
 
 sub print_help () {
-	print_revision($PROGNAME,'2.1.2');
+	print_revision($PROGNAME,'2.2.1.git');
 	print "Copyright (c) 2000 Michael Anthon/Karl DeBisschop
 
-Perl Check SMB Disk plugin for monitoring
+Perl Check SMB Disk plugin for Nagios
 
 ";
 	print_usage();

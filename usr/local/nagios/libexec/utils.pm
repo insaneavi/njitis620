@@ -32,7 +32,7 @@ $TIMEOUT = 15;
 sub print_revision ($$) {
 	my $commandName = shift;
 	my $pluginRevision = shift;
-	print "$commandName v$pluginRevision (nagios-plugins 2.1.2)\n";
+	print "$commandName v$pluginRevision (nagios-plugins 2.2.1)\n";
 	print "The nagios plugins come with ABSOLUTELY NO WARRANTY. You may redistribute\ncopies of the plugins under the terms of the GNU General Public License.\nFor more information about these matters, see the file named COPYING.\n";
 }
 
